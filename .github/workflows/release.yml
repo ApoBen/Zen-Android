@@ -1,0 +1,140 @@
+name: Release
+
+on:
+  create:
+
+jobs:
+  release-automation:
+    name: Build App
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          submodules: 'true'
+          fetch-depth: 0
+
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          java-version: 17
+          distribution: temurin
+
+      - name: Install Android SDK with pieces Gradle skips
+        run: ./automation/iceraven/install-sdk.sh
+
+      - name: Inspect memory
+        run: free -h
+
+      - name: Create version name
+        run: echo "VERSION_NAME=$(git describe --tags HEAD)" >> $GITHUB_ENV
+
+      - name: Patch on the fly
+        run: |
+          ./automation/iceraven/patch_android_components.sh
+
+      - name: Relpace strings
+        run: |
+          sed -i 's/Firefox/Iceraven/g' app/src/*/res/values*/*strings.xml
+          sed -i '/about_content/s/Mozilla/@forkmaintainers/' app/src/*/res/values*/*strings.xml
+          sed -i '/<string name="trackers_blocked_panel_categorical_num_trackers_blocked">/s/%s/%1$s/g; /<string name="trackers_blocked_panel_categorical_num_trackers_blocked">/s/%d/%2$d/g' app/src/*/res/values*/*strings.xml
+
+
+      - name: Build forkRelease variant of app
+        uses: gradle/gradle-build-action@v2
+        env:
+          # Try to stop the daemon from magically vanishing by adding random memory-related arguments.
+          # See <https://stackoverflow.com/a/70010526> and <https://stackoverflow.com/a/70756876>
+          # The runner seems to have ~6 gigs of memory, so we make sure to stay under that.
+          # We have Java 11 so we don't have a perm size anymore.
+          GRADLE_OPTS: -Dorg.gradle.jvmargs="-XX:MaxMetaspaceSize=4g -Xms1g -Xmx8g -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/dev/stderr"
+        with:
+          gradle-home-cache-cleanup: true
+          gradle-executable: /usr/bin/time
+          arguments: -v ./gradlew app:assembleForkRelease -PversionName=${{ env.VERSION_NAME }} --stacktrace
+
+      - name: Setup build tool version variable
+        shell: bash
+        run: |
+          BUILD_TOOL_VERSION=$(ls /usr/local/lib/android/sdk/build-tools/ | tail -n 1)
+          echo "BUILD_TOOL_VERSION=$BUILD_TOOL_VERSION" >> $GITHUB_ENV
+
+      - name: Create signed APKs
+        if: "contains(toJSON(github.event.ref_type), 'tag') && contains(toJSON(github.event.ref), 'iceraven')"
+        uses: abhijitvalluri/sign-apks@v0.8
+        with:
+          releaseDirectory: gradle/build/app/outputs/apk/forkRelease/
+          signingKeyBase64: ${{ secrets.DEBUG_SIGNING_KEY }}
+          alias: ${{ secrets.DEBUG_ALIAS }}
+          keyStorePassword: ${{ secrets.DEBUG_KEY_STORE_PASSWORD }}
+          keyPassword: ${{ secrets.DEBUG_KEY_PASSWORD }}
+        env:
+          BUILD_TOOLS_VERSION: ${{ env.BUILD_TOOL_VERSION }}
+
+      - name: Create changelog
+        if: "contains(toJSON(github.event.ref_type), 'tag') && contains(toJSON(github.event.ref), 'iceraven')"
+        run: |
+          PREVIOUS_RELEASE_TAG=$(git tag --list iceraven-* --sort=-creatordate | tail -n+2 | head -n 1)
+          CURRENT_RELEASE_TAG=${{ github.event.ref }}
+          CURRENT_RELEASE_TAG_CAPITALIZE=${CURRENT_RELEASE_TAG^}
+          CURRENT_RELEASE_TAG_CAPITALIZE=$(echo $CURRENT_RELEASE_TAG_CAPITALIZE | tr '-' ' ')
+          echo "CURRENT_RELEASE_TAG_CAPITALIZE=${CURRENT_RELEASE_TAG_CAPITALIZE}" >> $GITHUB_ENV
+          FENIX_TAG=$(cat version.txt | tr -d '\n')
+
+          echo -e "## Release info\n" >> temp_changelog.md
+
+          echo '```' >> temp_changelog.md
+          echo "Iceraven: $(echo $CURRENT_RELEASE_TAG |  tr -d 'iceraven-')" >> temp_changelog.md
+          echo "Fenix: ${FENIX_TAG}" >> temp_changelog.md
+          echo -e '```\n' >> temp_changelog.md
+
+          echo -e "## News\n" >> temp_changelog.md
+
+          echo -e "## Change log\n" >> temp_changelog.md
+          echo "[${PREVIOUS_RELEASE_TAG}...${CURRENT_RELEASE_TAG}](https://github.com/${{ github.repository }}/compare/${PREVIOUS_RELEASE_TAG}...${CURRENT_RELEASE_TAG})" >> temp_changelog.md
+
+      - name: Create Release
+        if: "contains(toJSON(github.event.ref_type), 'tag') && contains(toJSON(github.event.ref), 'iceraven')"
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.event.ref }}
+          release_name: "${{ env.CURRENT_RELEASE_TAG_CAPITALIZE }}"
+          draft: false
+          prerelease: false
+          body_path: temp_changelog.md
+
+      - name: Upload arm64 apk
+        if: "contains(toJSON(github.event.ref_type), 'tag') && contains(toJSON(github.event.ref), 'iceraven')"
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: gradle/build/app/outputs/apk/forkRelease/app-arm64-v8a-forkRelease.apk
+          asset_name: ${{ github.event.ref }}-browser-arm64-v8a-forkRelease.apk
+          asset_content_type: application/vnd.android.package-archive
+
+      - name: Upload armeabi apk
+        if: "contains(toJSON(github.event.ref_type), 'tag') && contains(toJSON(github.event.ref), 'iceraven')"
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: gradle/build/app/outputs/apk/forkRelease/app-armeabi-v7a-forkRelease.apk
+          asset_name: ${{ github.event.ref }}-browser-armeabi-v7a-forkRelease.apk
+          asset_content_type: application/vnd.android.package-archive
+
+      - name: Upload x86_64 apk
+        if: "contains(toJSON(github.event.ref_type), 'tag') && contains(toJSON(github.event.ref), 'iceraven')"
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: gradle/build/app/outputs/apk/forkRelease/app-x86_64-forkRelease.apk
+          asset_name: ${{ github.event.ref }}-browser-x86_64-forkRelease.apk
+          asset_content_type: application/vnd.android.package-archive

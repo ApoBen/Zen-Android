@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="addons_menu_sideload" type="id" />
+    <item name="addons_menu_delete_cache" type="id" />
+    <item name="navigation_bar" type="id" />
+    <item name="composable_toolbar" type="id" />
+</resources>

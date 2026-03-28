@@ -1,0 +1,21 @@
+// Zen Browser Build Configuration Shim
+ext.config = [
+    compileSdkMajorVersion: 34,
+    compileSdkMinorVersion: 0,
+    targetSdkVersion: 34,
+    minSdkVersion: 26,
+    majorVersion: "1",
+    jvmTargetCompatibility: 17
+]
+
+ext.release = { v -> v }
+
+class Config {
+    static String generateDebugVersionName() {
+        return "1.0-Zen-Debug"
+    }
+    static String majorVersion(p) {
+        return "1"
+    }
+}
+ext.Config = Config

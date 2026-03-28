@@ -1,0 +1,19 @@
+// Zen Build Shim to resolve missing Config/config objects
+ext.config = [
+    compileSdkMajorVersion: 36,
+    compileSdkMinorVersion: 0,
+    targetSdkVersion: 36,
+    minSdkVersion: 26,
+    majorVersion: "1"
+]
+
+// Shim for 'release' method used in compileSdk
+ext.release = { version -> return version }
+
+// Shim for 'Config' object used for versioning
+class ConfigShim {
+    static String generateDebugVersionName() {
+        return "1.0-Zen-Debug"
+    }
+}
+ext.Config = ConfigShim

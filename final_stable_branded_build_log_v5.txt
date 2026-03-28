@@ -1,0 +1,141 @@
+
+> Configure project :conventions
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.2.20` that might work differently than in the requested version `2.3.10`.
+
+> Task :conventions:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :dependencies:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :dependencies:compileKotlin UP-TO-DATE
+> Task :conventions:compileKotlin UP-TO-DATE
+> Task :dependencies:compileJava NO-SOURCE
+> Task :conventions:compileJava NO-SOURCE
+> Task :dependencies:pluginDescriptors UP-TO-DATE
+> Task :conventions:pluginDescriptors UP-TO-DATE
+> Task :conventions:processResources UP-TO-DATE
+> Task :dependencies:processResources UP-TO-DATE
+> Task :dependencies:classes UP-TO-DATE
+> Task :conventions:classes UP-TO-DATE
+> Task :conventions:jar UP-TO-DATE
+> Task :dependencies:jar UP-TO-DATE
+> Task :config:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :config:compileKotlin UP-TO-DATE
+> Task :config:compileJava NO-SOURCE
+> Task :config:pluginDescriptors UP-TO-DATE
+> Task :config:processResources UP-TO-DATE
+> Task :config:classes UP-TO-DATE
+> Task :config:jar UP-TO-DATE
+> Task :apksize:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :nimbus-gradle-plugin:extractPluginRequests NO-SOURCE
+> Task :gradle-python-envs:compileJava NO-SOURCE
+> Task :nimbus-gradle-plugin:generatePluginAdapters NO-SOURCE
+> Task :nimbus-gradle-plugin:compileJava NO-SOURCE
+> Task :apksize:compileKotlin UP-TO-DATE
+> Task :apksize:compileJava NO-SOURCE
+> Task :apksize:pluginDescriptors UP-TO-DATE
+> Task :apksize:processResources UP-TO-DATE
+> Task :apksize:classes UP-TO-DATE
+> Task :apksize:jar UP-TO-DATE
+> Task :nimbus-gradle-plugin:compileGroovy UP-TO-DATE
+> Task :gradle-python-envs:compileGroovy UP-TO-DATE
+> Task :nimbus-gradle-plugin:compileGroovyPlugins NO-SOURCE
+> Task :gradle-python-envs:pluginDescriptors UP-TO-DATE
+> Task :nimbus-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :nimbus-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-python-envs:processResources UP-TO-DATE
+> Task :nimbus-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-python-envs:classes UP-TO-DATE
+> Task :nimbus-gradle-plugin:jar UP-TO-DATE
+> Task :gradle-python-envs:jar UP-TO-DATE
+
+> Configure project :app
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+Requires glean_parser 18.2
+
+> Configure project :components:browser-engine-gecko
+Getting geckoview: geckoview:149.0.20260318190823
+Requires glean_parser 18.2
+
+> Configure project :components:lib-crash
+Requires glean_parser 18.2
+
+> Task :publicsuffixlist:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :publicsuffixlist:compileKotlin UP-TO-DATE
+> Task :publicsuffixlist:compileJava NO-SOURCE
+> Task :publicsuffixlist:pluginDescriptors UP-TO-DATE
+> Task :publicsuffixlist:processResources UP-TO-DATE
+> Task :publicsuffixlist:classes UP-TO-DATE
+> Task :publicsuffixlist:jar UP-TO-DATE
+
+> Configure project :components:service-nimbus
+Requires glean_parser 18.2
+
+> Task :app:createBuildDir UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+
+> Task :app:Bootstrap_CONDA_'Miniconda3'
+Bootstraping to /home/apobennol/.gradle/glean/bootstrap-24.3.0-0/Miniconda3
+PREFIX=/home/apobennol/.gradle/glean/bootstrap-24.3.0-0/Miniconda3
+Unpacking payload ...
+
+Installing base environment...
+
+Preparing transaction: ...working... done
+Executing transaction: ...working... done
+installation finished.
+Installing packages via pip: [glean_parser~=18.2]
+Executing '/home/apobennol/.gradle/glean/bootstrap-24.3.0-0/Miniconda3/bin/pip install --trusted-host pypi.python.org --no-cache-dir glean_parser~=18.2'
+Collecting glean_parser~=18.2
+  Downloading glean_parser-18.2.0-py3-none-any.whl.metadata (3.2 kB)
+Collecting click>=7 (from glean_parser~=18.2)
+  Downloading click-8.3.1-py3-none-any.whl.metadata (2.6 kB)

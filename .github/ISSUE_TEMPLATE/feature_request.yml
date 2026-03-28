@@ -1,0 +1,40 @@
+name: "⭐️ Feature request"
+description: Suggest an idea for this project
+title: "[Feature Request]: "
+labels: ["🌟 feature request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        - Please do your best to search for duplicate issues before filing a new issue so we can keep our issue board clean
+        - Every issue should have exactly one feature request described in it. Please do not file feedback list tickets as it is difficult to parse them and address their individual points
+        - Feature Requests are better when they’re open-ended instead of demanding a specific solution e.g: “I want an easier way to do X” instead of “add Y”
+        - Read https://github.com/fork-maintainers/iceraven-browser#i-want-to-file-an-issue for more information
+
+  - type: textarea
+    attributes:
+      label: Feature Summary
+      description: What is the user problem or growth opportunity you want to see solved?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Feature Research
+      description: How do you know that this problem exists today? Why is this important?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Alternative Solution
+      description: Other possible solutions, if any.
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Target beneficiaries
+      description: Who will benefit from it?
+    validations:
+      required: true
