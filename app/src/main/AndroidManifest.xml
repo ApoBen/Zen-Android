@@ -86,6 +86,8 @@
         <activity-alias
             android:name="${applicationId}.App"
             android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:roundIcon="@mipmap/ic_launcher"
             android:targetActivity="HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

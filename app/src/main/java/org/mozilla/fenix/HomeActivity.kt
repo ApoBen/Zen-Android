@@ -770,19 +770,8 @@ open class HomeActivity : LocaleAwareAppCompatActivity(), NavHostActivity {
             ),
         )
 
-        if (FxNimbus.features.alternativeAppLauncherIcon.value().enabled) {
-            // User has been enrolled in alternative app icon experiment.
-            // Note: Updating the icon will subsequently trigger a call to onDestroy().
-            with(applicationContext) {
-                changeAppLauncherIcon(
-                    context = this,
-                    appAlias = ComponentName(this, "$packageName.App"),
-                    alternativeAppAlias = ComponentName(this, "$packageName.AlternativeApp"),
-                    resetToDefault = FxNimbus.features.alternativeAppLauncherIcon.value().resetToDefault,
-                    crashReporter = components.analytics.crashReporter,
-                )
-            }
-        }
+        // if (FxNimbus.features.alternativeAppLauncherIcon.value().enabled) { ... }
+        // Disabled dynamic app launcher icon switching to prevent startup crashes.
 
         components.core.engine.profiler?.addMarker(
             MarkersActivityLifecycleCallbacks.MARKER_NAME,

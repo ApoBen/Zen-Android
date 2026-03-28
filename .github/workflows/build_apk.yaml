@@ -27,10 +27,10 @@ jobs:
         
       - name: Rename APK
         run: |
-          mv gradle/build/app/outputs/apk/zenDebug/app-arm64-v8a-zenDebug.apk Zen-Browser-Android-Alpha-v1.0-arm64.apk
+          mv gradle/build/app/outputs/apk/zenDebug/app-universal-zenDebug.apk Zen-Browser-Android-Alpha-v1.0-universal.apk
           
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: Zen-Browser-Android-Alpha-v1.0.zip
-          path: gradle/build/app/outputs/apk/zenDebug/*.apk
+          name: Zen-Browser-Android-Alpha-v1.0-Universal.zip
+          path: Zen-Browser-Android-Alpha-v1.0-universal.apk
