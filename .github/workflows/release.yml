@@ -33,7 +33,9 @@ jobs:
           pip install glean_parser==18.2.0
 
       - name: Build Zen Browser Alpha
-        run: ./gradlew assembleZenDebug
+        run: | 
+          chmod +x gradlew
+          ./gradlew assembleZenDebug
 
       - name: Rename APK
         run: |
