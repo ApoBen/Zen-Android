@@ -4,7 +4,7 @@
 
 pluginManagement {
     if (!gradle.hasProperty("mozconfig")){
-        apply from: file('/home/apobennol/Masaüstü/zen-Android/zen-android-src/gradle/mozconfig.gradle')
+        apply from: file('./gradle/mozconfig.gradle')
     } else {
         gradle.ext.mozconfig = gradle.mozconfig
         gradle.ext.configureMavenRepositories = gradle.ext.configureMavenRepositories
@@ -14,13 +14,13 @@ pluginManagement {
         gradle.configureMavenRepositories(delegate)
     }
 
-    includeBuild("/home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/conventions")
-    includeBuild("/home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/publicsuffixlist")
-    includeBuild("/home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/dependencies")
-    includeBuild("/home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/config")
-    includeBuild("/home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/apksize")
-    includeBuild("/home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/nimbus-gradle-plugin")
-    includeBuild("/home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/gradle-python-envs")
+    includeBuild("./plugins/conventions")
+    includeBuild("./android-components/plugins/publicsuffixlist")
+    includeBuild("./android-components/plugins/dependencies")
+    includeBuild("./android-components/plugins/config")
+    includeBuild("./plugins/apksize")
+    includeBuild("./plugins/nimbus-gradle-plugin")
+    includeBuild("./plugins/gradle-python-envs")
 }
 
 plugins {
@@ -36,7 +36,7 @@ plugins {
 //   }
 //}
 
-ext.topsrcdir = "/home/apobennol/Masaüstü/zen-Android/zen-android-src"
+ext.topsrcdir = "."
 
 apply from: file('./shared-settings.gradle')
 // apply from: file('./autopublish-settings.gradle')

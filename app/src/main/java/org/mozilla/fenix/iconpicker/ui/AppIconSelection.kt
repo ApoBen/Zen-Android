@@ -399,15 +399,7 @@ private fun AppIconOptionPreview(
     }
 }
 
-@FlexibleWindowPreview
-@Composable
-private fun AppIconOptionWithSubtitlePreview(
-    @PreviewParameter(PreviewThemeProvider::class) theme: Theme,
-) {
-    FirefoxTheme(theme) {
-        AppIconOption(AppIcon.AppMomo, false) {}
-    }
-}
+
 
 @FlexibleWindowPreview
 @Composable

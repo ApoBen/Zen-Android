@@ -130,7 +130,7 @@ class PrivateShortcutCreateManager(
     fun createPrivateShortcut(context: Context) {
         if (!shortcutManagerWrapper.isRequestPinShortcutSupported(context)) return
 
-        val icon = IconCompat.createWithResource(context, R.mipmap.ic_launcher_private_round)
+        val icon = IconCompat.createWithResource(context, R.mipmap.ic_launcher_round)
         val appName = context.getString(R.string.app_name)
         val privateShortcutLabel = context.getString(R.string.app_name_private_5, appName)
 

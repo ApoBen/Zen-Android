@@ -4,7 +4,7 @@
 
 pluginManagement {
     if (!gradle.root.hasProperty("mozconfig")){
-        apply from: file('/home/apobennol/Masaüstü/zen-Android/zen-android-src/gradle/mozconfig.gradle')
+        apply from: file('../../gradle/mozconfig.gradle')
     } else {
         gradle.ext.mozconfig = gradle.root.mozconfig
         gradle.ext.configureMavenRepositories = gradle.root.ext.configureMavenRepositories
@@ -22,7 +22,7 @@ dependencyResolutionManagement {
     }
     versionCatalogs {
         libs {
-            from(files("/home/apobennol/Masaüstü/zen-Android/zen-android-src/gradle/libs.versions.toml"))
+            from(files("../../gradle/libs.versions.toml"))
         }
     }
 }

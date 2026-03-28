@@ -1,0 +1,36 @@
+name: Build Zen Browser Android
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: gradle
+          
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+        
+      - name: Build with Gradle
+        run: ./gradlew assembleZenDebug --no-daemon
+        
+      - name: Rename APK
+        run: |
+          mv gradle/build/app/outputs/apk/zenDebug/app-arm64-v8a-zenDebug.apk Zen-Browser-Android-Alpha-v1.0-arm64.apk
+          
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: Zen-Browser-Android-Alpha-v1.0.zip
+          path: gradle/build/app/outputs/apk/zenDebug/*.apk

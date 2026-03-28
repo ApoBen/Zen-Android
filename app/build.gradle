@@ -296,6 +296,16 @@ android {
                 baselineProfiles.srcDirs(project.property('baselineProfilePath'))
             }
         }
+        zenDebug {
+            java.srcDirs += ['src/debug/java']
+            res.srcDirs += ['src/debug/res']
+            manifest.srcFile 'src/debug/AndroidManifest.xml'
+        }
+        zenRelease {
+            java.srcDirs += ['src/release/java']
+            res.srcDirs += ['src/release/res']
+            manifest.srcFile 'src/release/AndroidManifest.xml'
+        }
     }
 
     splits {

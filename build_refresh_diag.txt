@@ -1,0 +1,880 @@
+Initialized native services in: /home/apobennol/.gradle/native
+Initialized jansi services in: /home/apobennol/.gradle/native
+Found daemon DaemonInfo{pid=42211, address=[cab0cd10-1582-4992-89d9-5532fba096bd port:33557, addresses:[/127.0.0.1]], state=Idle, lastBusy=1774719921523, context=DefaultDaemonContext[uid=9a4ba9ab-8c43-4590-8b45-232ba65843ec,javaHome=/home/apobennol/.antigravity/extensions/redhat.java-1.53.0-linux-x64/jre/21.0.10-linux-x86_64,javaVersion=21,javaVendor=Eclipse Adoptium,daemonRegistryDir=/home/apobennol/.gradle/daemon,pid=42211,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=1g,-Xmx6g,-Dfile.encoding=UTF-8,-Duser.country=TR,-Duser.language=tr,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=/usr/lib/jvm/java-17-openjdk (no JDK specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=1g, -Xmx6g, -Dfile.encoding=UTF-8, -Duser.country=TR, -Duser.language=tr, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=9a4ba9ab-8c43-4590-8b45-232ba65843ec,javaHome=/home/apobennol/.antigravity/extensions/redhat.java-1.53.0-linux-x64/jre/21.0.10-linux-x86_64,javaVersion=21,javaVendor=Eclipse Adoptium,daemonRegistryDir=/home/apobennol/.gradle/daemon,pid=42211,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=1g,-Xmx6g,-Dfile.encoding=UTF-8,-Duser.country=TR,-Duser.language=tr,-Duser.variant]
+
+  Looking for a different daemon...
+Removing 2 daemon stop events from registry
+Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+Starting process 'Gradle build daemon'. Working directory: /home/apobennol/.gradle/daemon/9.2.1 Command: /usr/lib/jvm/java-17-openjdk/bin/java --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.xml/javax.xml.namespace=ALL-UNNAMED --add-opens=java.base/java.time=ALL-UNNAMED -XX:MaxMetaspaceSize=1g -Xmx6g -Dfile.encoding=UTF-8 -Duser.country=TR -Duser.language=tr -Duser.variant -cp /home/apobennol/.gradle/wrapper/dists/gradle-9.2.1-bin/2t0n5ozlw9xmuyvbp7dnzaxug/gradle-9.2.1/lib/gradle-daemon-main-9.2.1.jar -javaagent:/home/apobennol/.gradle/wrapper/dists/gradle-9.2.1-bin/2t0n5ozlw9xmuyvbp7dnzaxug/gradle-9.2.1/lib/agents/gradle-instrumentation-agent-9.2.1.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 9.2.1
+Successfully started process 'Gradle build daemon'
+An attempt to start the daemon took 0.601 secs.
+The client will now receive all logging from the daemon (pid: 229724). The daemon log file: /home/apobennol/.gradle/daemon/9.2.1/daemon-229724.out.log
+Starting build in new daemon [memory: 6 GiB]
+Using 12 worker leases.
+Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=false, configureOnDemand=false, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=false, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+Received JVM installation metadata from '/usr/lib/jvm/java-17-openjdk': {JAVA_HOME=/usr/lib/jvm/java-17-openjdk, JAVA_VERSION=17.0.18, JAVA_VENDOR=Arch Linux, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=17.0.18+8, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=17.0.18+8, VM_VENDOR=Arch Linux, OS_ARCH=amd64}
+Watching the file system is configured to be enabled if available
+Now considering [/home/apobennol/Masaüstü/zen-Android/zen-android-src] as hierarchies to watch
+File system watching is active
+Starting Build
+Now considering [/home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/conventions, /home/apobennol/Masaüstü/zen-Android/zen-android-src] as hierarchies to watch
+Now considering [/home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/publicsuffixlist, /home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/conventions, /home/apobennol/Masaüstü/zen-Android/zen-android-src] as hierarchies to watch
+Now considering [/home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/dependencies, /home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/publicsuffixlist, /home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/conventions, /home/apobennol/Masaüstü/zen-Android/zen-android-src] as hierarchies to watch
+Now considering [/home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/config, /home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/dependencies, /home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/publicsuffixlist, /home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/conventions, /home/apobennol/Masaüstü/zen-Android/zen-android-src] as hierarchies to watch
+Now considering [/home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/apksize, /home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/config, /home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/dependencies, /home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/publicsuffixlist, /home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/conventions, /home/apobennol/Masaüstü/zen-Android/zen-android-src] as hierarchies to watch
+Now considering [/home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/nimbus-gradle-plugin, /home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/apksize, /home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/config, /home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/dependencies, /home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/publicsuffixlist, /home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/conventions, /home/apobennol/Masaüstü/zen-Android/zen-android-src] as hierarchies to watch
+Now considering [/home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/gradle-python-envs, /home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/nimbus-gradle-plugin, /home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/apksize, /home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/config, /home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/dependencies, /home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/publicsuffixlist, /home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/conventions, /home/apobennol/Masaüstü/zen-Android/zen-android-src] as hierarchies to watch
+
+> Configure project :conventions
+Evaluating project ':conventions' using build file '/home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/conventions/build.gradle.kts'.
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/gradle/kotlin/kotlin-dsl/org.gradle.kotlin.kotlin-dsl.gradle.plugin/6.4.1/org.gradle.kotlin.kotlin-dsl.gradle.plugin-6.4.1.pom]
+Found locally available resource with matching checksum: [https://plugins.gradle.org/m2/org/gradle/kotlin/kotlin-dsl/org.gradle.kotlin.kotlin-dsl.gradle.plugin/6.4.1/org.gradle.kotlin.kotlin-dsl.gradle.plugin-6.4.1.pom, /home/apobennol/.gradle/caches/modules-2/files-2.1/org.gradle.kotlin.kotlin-dsl/org.gradle.kotlin.kotlin-dsl.gradle.plugin/6.4.1/9aa41d68246c752d3f714e3fdf6a72d4bfd9f255/org.gradle.kotlin.kotlin-dsl.gradle.plugin-6.4.1.pom]
+Resource missing. [HTTP HEAD: https://plugins.gradle.org/m2/org/gradle/kotlin/kotlin-dsl/org.gradle.kotlin.kotlin-dsl.gradle.plugin/6.4.1/org.gradle.kotlin.kotlin-dsl.gradle.plugin-6.4.1.jar]
+Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '6.4.1']
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/plugin/serialization/org.jetbrains.kotlin.plugin.serialization.gradle.plugin/2.3.10/org.jetbrains.kotlin.plugin.serialization.gradle.plugin-2.3.10.pom]
+Found locally available resource with matching checksum: [https://plugins.gradle.org/m2/org/jetbrains/kotlin/plugin/serialization/org.jetbrains.kotlin.plugin.serialization.gradle.plugin/2.3.10/org.jetbrains.kotlin.plugin.serialization.gradle.plugin-2.3.10.pom, /home/apobennol/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin.plugin.serialization/org.jetbrains.kotlin.plugin.serialization.gradle.plugin/2.3.10/644160170ce2b6268162e52d08be054f9b4ba4d4/org.jetbrains.kotlin.plugin.serialization.gradle.plugin-2.3.10.pom]
+Resource missing. [HTTP HEAD: https://plugins.gradle.org/m2/org/jetbrains/kotlin/plugin/serialization/org.jetbrains.kotlin.plugin.serialization.gradle.plugin/2.3.10/org.jetbrains.kotlin.plugin.serialization.gradle.plugin-2.3.10.jar]
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.serialization', version: '2.3.10']
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/gradle/kotlin/gradle-kotlin-dsl-plugins/6.4.1/gradle-kotlin-dsl-plugins-6.4.1.pom]
+Cached resource https://plugins.gradle.org/m2/org/gradle/kotlin/gradle-kotlin-dsl-plugins/6.4.1/gradle-kotlin-dsl-plugins-6.4.1.pom is up-to-date (lastModified: Wed Oct 15 19:03:55 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/gradle/kotlin/gradle-kotlin-dsl-plugins/6.4.1/gradle-kotlin-dsl-plugins-6.4.1.module is up-to-date (lastModified: Wed Oct 15 19:03:58 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-serialization/2.3.10/kotlin-serialization-2.3.10.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-serialization/2.3.10/kotlin-serialization-2.3.10.pom is up-to-date (lastModified: Thu Feb 05 12:03:49 TRT 2026).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugins-bom/2.3.10/kotlin-gradle-plugins-bom-2.3.10.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugins-bom/2.3.10/kotlin-gradle-plugins-bom-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugins-bom/2.3.10/kotlin-gradle-plugins-bom-2.3.10.module is up-to-date (lastModified: Wed Feb 04 21:07:28 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-serialization/2.3.10/kotlin-serialization-2.3.10.module is up-to-date (lastModified: Thu Feb 05 12:03:53 TRT 2026).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin/2.2.20/kotlin-gradle-plugin-2.2.20.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/2.2.20/kotlin-gradle-plugin-api-2.2.20.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-sam-with-receiver/2.2.20/kotlin-sam-with-receiver-2.2.20.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-assignment/2.2.20/kotlin-assignment-2.2.20.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin/2.2.20/kotlin-gradle-plugin-2.2.20.pom is up-to-date (lastModified: Wed Sep 10 10:59:53 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/2.2.20/kotlin-gradle-plugin-api-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-sam-with-receiver/2.2.20/kotlin-sam-with-receiver-2.2.20.pom is up-to-date (lastModified: Wed Sep 10 10:59:58 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugins-bom/2.2.20/kotlin-gradle-plugins-bom-2.2.20.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-assignment/2.2.20/kotlin-assignment-2.2.20.pom is up-to-date (lastModified: Wed Sep 10 10:59:00 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugins-bom/2.2.20/kotlin-gradle-plugins-bom-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugins-bom/2.2.20/kotlin-gradle-plugins-bom-2.2.20.module is up-to-date (lastModified: Tue Sep 09 22:07:07 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/2.2.20/kotlin-gradle-plugin-api-2.2.20.module is up-to-date (lastModified: Tue Sep 09 22:07:06 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin/2.2.20/kotlin-gradle-plugin-2.2.20.module is up-to-date (lastModified: Wed Sep 10 10:59:51 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-sam-with-receiver/2.2.20/kotlin-sam-with-receiver-2.2.20.module is up-to-date (lastModified: Wed Sep 10 10:59:54 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-assignment/2.2.20/kotlin-assignment-2.2.20.module is up-to-date (lastModified: Wed Sep 10 10:58:57 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.20/kotlin-stdlib-2.2.20.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.2.20/kotlin-stdlib-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.2.20/kotlin-stdlib-2.2.20.module is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/2.3.10/kotlin-gradle-plugin-api-2.3.10.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/2.3.10/kotlin-gradle-plugin-api-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/2.3.10/kotlin-gradle-plugin-api-2.3.10.module is up-to-date (lastModified: Wed Feb 04 21:07:27 TRT 2026).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea-proto/2.2.20/kotlin-gradle-plugin-idea-proto-2.2.20.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-compiler-runner/2.2.20/kotlin-compiler-runner-2.2.20.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-klib-commonizer-api/2.2.20/kotlin-klib-commonizer-api-2.2.20.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/abi-tools-api/2.2.20/abi-tools-api-2.2.20.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/2.2.20/kotlin-gradle-plugin-model-2.2.20.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea/2.2.20/kotlin-gradle-plugin-idea-2.2.20.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/fus-statistics-gradle-plugin/2.2.20/fus-statistics-gradle-plugin-2.2.20.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-build-statistics/2.2.20/kotlin-build-statistics-2.2.20.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-util-klib-metadata/2.2.20/kotlin-util-klib-metadata-2.2.20.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea-proto/2.2.20/kotlin-gradle-plugin-idea-proto-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-klib-metadata/2.2.20/kotlin-util-klib-metadata-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-klib-commonizer-api/2.2.20/kotlin-klib-commonizer-api-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-runner/2.2.20/kotlin-compiler-runner-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea/2.2.20/kotlin-gradle-plugin-idea-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/2.2.20/kotlin-gradle-plugin-model-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea/2.2.20/kotlin-gradle-plugin-idea-2.2.20.module is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/2.2.20/kotlin-gradle-plugin-model-2.2.20.module is up-to-date (lastModified: Tue Sep 09 22:07:08 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/abi-tools-api/2.2.20/abi-tools-api-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/fus-statistics-gradle-plugin/2.2.20/fus-statistics-gradle-plugin-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-statistics/2.2.20/kotlin-build-statistics-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/fus-statistics-gradle-plugin/2.2.20/fus-statistics-gradle-plugin-2.2.20.module is up-to-date (lastModified: Tue Sep 09 22:07:04 TRT 2025).
+Variant Selection Exception: org.gradle.internal.component.resolution.failure.exception.VariantSelectionByAttributesException caused by Resolution Failure: org.gradle.internal.component.resolution.failure.type.NoVariantsWithMatchingCapabilitiesFailure
+Variant Selection Exception: org.gradle.internal.component.resolution.failure.exception.VariantSelectionByAttributesException caused by Resolution Failure: org.gradle.internal.component.resolution.failure.type.NoVariantsWithMatchingCapabilitiesFailure
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/annotations/13.0/annotations-13.0.pom is up-to-date (lastModified: Tue Dec 17 14:10:43 TRT 2013).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/fus-statistics-gradle-plugin/2.3.10/fus-statistics-gradle-plugin-2.3.10.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/fus-statistics-gradle-plugin/2.3.10/fus-statistics-gradle-plugin-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/fus-statistics-gradle-plugin/2.3.10/fus-statistics-gradle-plugin-2.3.10.module is up-to-date (lastModified: Wed Feb 04 21:07:28 TRT 2026).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin/2.3.10/kotlin-gradle-plugin-2.3.10.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin/2.3.10/kotlin-gradle-plugin-2.3.10.pom is up-to-date (lastModified: Thu Feb 05 12:03:34 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin/2.3.10/kotlin-gradle-plugin-2.3.10.module is up-to-date (lastModified: Thu Feb 05 12:03:39 TRT 2026).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-sam-with-receiver/2.3.10/kotlin-sam-with-receiver-2.3.10.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-sam-with-receiver/2.3.10/kotlin-sam-with-receiver-2.3.10.pom is up-to-date (lastModified: Thu Feb 05 12:03:52 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-sam-with-receiver/2.3.10/kotlin-sam-with-receiver-2.3.10.module is up-to-date (lastModified: Thu Feb 05 12:03:50 TRT 2026).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-assignment/2.3.10/kotlin-assignment-2.3.10.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-assignment/2.3.10/kotlin-assignment-2.3.10.pom is up-to-date (lastModified: Thu Feb 05 12:02:51 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-assignment/2.3.10/kotlin-assignment-2.3.10.module is up-to-date (lastModified: Thu Feb 05 12:02:52 TRT 2026).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-api/2.3.10/kotlin-build-tools-api-2.3.10.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-tools-api/2.3.10/kotlin-build-tools-api-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-annotations/2.3.10/kotlin-gradle-plugin-annotations-2.3.10.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-tooling-core/2.3.10/kotlin-tooling-core-2.3.10.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-native-utils/2.3.10/kotlin-native-utils-2.3.10.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-annotations/2.3.10/kotlin-gradle-plugin-annotations-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-tooling-core/2.3.10/kotlin-tooling-core-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-native-utils/2.3.10/kotlin-native-utils-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-compiler-runner/2.3.10/kotlin-compiler-runner-2.3.10.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/abi-tools-api/2.3.10/abi-tools-api-2.3.10.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-util-klib-metadata/2.3.10/kotlin-util-klib-metadata-2.3.10.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea/2.3.10/kotlin-gradle-plugin-idea-2.3.10.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-build-statistics/2.3.10/kotlin-build-statistics-2.3.10.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea-proto/2.3.10/kotlin-gradle-plugin-idea-proto-2.3.10.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-klib-commonizer-api/2.3.10/kotlin-klib-commonizer-api-2.3.10.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-klib-metadata/2.3.10/kotlin-util-klib-metadata-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-statistics/2.3.10/kotlin-build-statistics-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-runner/2.3.10/kotlin-compiler-runner-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/abi-tools-api/2.3.10/abi-tools-api-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea-proto/2.3.10/kotlin-gradle-plugin-idea-proto-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea/2.3.10/kotlin-gradle-plugin-idea-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-klib-commonizer-api/2.3.10/kotlin-klib-commonizer-api-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea/2.3.10/kotlin-gradle-plugin-idea-2.3.10.module is up-to-date (lastModified: Wed Feb 04 21:07:24 TRT 2026).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-util-io/2.3.10/kotlin-util-io-2.3.10.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-io/2.3.10/kotlin-util-io-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.pom]
+Cached resource https://plugins.gradle.org/m2/com/google/code/gson/gson/2.11.0/gson-2.11.0.pom is up-to-date (lastModified: Sun May 19 21:54:42 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/code/gson/gson-parent/2.11.0/gson-parent-2.11.0.pom]
+Cached resource https://plugins.gradle.org/m2/com/google/code/gson/gson-parent/2.11.0/gson-parent-2.11.0.pom is up-to-date (lastModified: Sun May 19 21:54:23 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-util-klib/2.3.10/kotlin-util-klib-2.3.10.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-klib/2.3.10/kotlin-util-klib-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.8.0/kotlinx-coroutines-core-jvm-1.8.0.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-daemon-client/2.3.10/kotlin-daemon-client-2.3.10.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.8.0/kotlinx-coroutines-core-jvm-1.8.0.pom is up-to-date (lastModified: Thu Feb 15 17:31:03 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-client/2.3.10/kotlin-daemon-client-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.8.0/kotlinx-coroutines-bom-1.8.0.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.8.0/kotlinx-coroutines-bom-1.8.0.pom is up-to-date (lastModified: Thu Feb 15 17:26:11 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.8.0/kotlinx-coroutines-core-jvm-1.8.0.module is up-to-date (lastModified: Thu Feb 15 17:31:04 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.pom]
+Cached resource https://plugins.gradle.org/m2/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.pom is up-to-date (lastModified: Fri Apr 26 18:56:09 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/errorprone/error_prone_parent/2.27.0/error_prone_parent-2.27.0.pom]
+Cached resource https://plugins.gradle.org/m2/com/google/errorprone/error_prone_parent/2.27.0/error_prone_parent-2.27.0.pom is up-to-date (lastModified: Fri Apr 26 18:56:02 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/annotations/13.0/annotations-13.0.jar is up-to-date (lastModified: Tue Dec 17 14:10:42 TRT 2013).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-klib-commonizer-api/2.3.10/kotlin-klib-commonizer-api-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:23 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea-proto/2.3.10/kotlin-gradle-plugin-idea-proto-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:26 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea/2.3.10/kotlin-gradle-plugin-idea-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:28 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/gradle/kotlin/gradle-kotlin-dsl-plugins/6.4.1/gradle-kotlin-dsl-plugins-6.4.1.jar is up-to-date (lastModified: Wed Oct 15 19:03:56 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-serialization/2.3.10/kotlin-serialization-2.3.10-gradle813.jar is up-to-date (lastModified: Thu Feb 05 12:03:48 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.2.20/kotlin-stdlib-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:04 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/2.3.10/kotlin-gradle-plugin-api-2.3.10-gradle813.jar is up-to-date (lastModified: Wed Feb 04 21:07:24 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-assignment/2.3.10/kotlin-assignment-2.3.10-gradle813.jar is up-to-date (lastModified: Thu Feb 05 12:02:54 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-statistics/2.3.10/kotlin-build-statistics-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:29 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-klib-metadata/2.3.10/kotlin-util-klib-metadata-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin/2.3.10/kotlin-gradle-plugin-2.3.10-gradle813.jar is up-to-date (lastModified: Thu Feb 05 12:03:38 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/abi-tools-api/2.3.10/abi-tools-api-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:27 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-runner/2.3.10/kotlin-compiler-runner-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:27 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-annotations/2.3.10/kotlin-gradle-plugin-annotations-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:27 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/fus-statistics-gradle-plugin/2.3.10/fus-statistics-gradle-plugin-2.3.10-gradle813.jar is up-to-date (lastModified: Wed Feb 04 21:07:25 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-sam-with-receiver/2.3.10/kotlin-sam-with-receiver-2.3.10-gradle813.jar is up-to-date (lastModified: Thu Feb 05 12:03:47 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-io/2.3.10/kotlin-util-io-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:25 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-klib/2.3.10/kotlin-util-klib-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:24 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.8.0/kotlinx-coroutines-core-jvm-1.8.0.jar is up-to-date (lastModified: Thu Feb 15 17:31:03 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar is up-to-date (lastModified: Fri Apr 26 18:56:09 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-tooling-core/2.3.10/kotlin-tooling-core-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:24 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-native-utils/2.3.10/kotlin-native-utils-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:28 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-tools-api/2.3.10/kotlin-build-tools-api-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:26 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar is up-to-date (lastModified: Sun May 19 21:54:41 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-client/2.3.10/kotlin-daemon-client-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:28 TRT 2026).
+Build dc1dd920-4753-428b-9732-82cc0776c749 is started
+Using Kotlin Gradle Plugin gradle813 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.2.20` that might work differently than in the requested version `2.3.10`.
+file or directory '/home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/conventions/src/main/kotlin', not found
+Resolved plugin [id: 'org.mozilla.conventions.settings']
+
+> Configure project :publicsuffixlist
+Evaluating project ':publicsuffixlist' using build file '/home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/publicsuffixlist/build.gradle'.
+
+> Configure project :dependencies
+Evaluating project ':dependencies' using build file '/home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/dependencies/build.gradle'.
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/autonomousapps/dependency-analysis/com.autonomousapps.dependency-analysis.gradle.plugin/3.5.1/com.autonomousapps.dependency-analysis.gradle.plugin-3.5.1.pom]
+Found locally available resource with matching checksum: [https://plugins.gradle.org/m2/com/autonomousapps/dependency-analysis/com.autonomousapps.dependency-analysis.gradle.plugin/3.5.1/com.autonomousapps.dependency-analysis.gradle.plugin-3.5.1.pom, /home/apobennol/.gradle/caches/modules-2/files-2.1/com.autonomousapps.dependency-analysis/com.autonomousapps.dependency-analysis.gradle.plugin/3.5.1/9ded4ad12f4c5519031fafa92f03a7e3af2df9f8/com.autonomousapps.dependency-analysis.gradle.plugin-3.5.1.pom]
+Resource missing. [HTTP HEAD: https://plugins.gradle.org/m2/com/autonomousapps/dependency-analysis/com.autonomousapps.dependency-analysis.gradle.plugin/3.5.1/com.autonomousapps.dependency-analysis.gradle.plugin-3.5.1.jar]
+Resolved plugin [id: 'com.autonomousapps.dependency-analysis', version: '3.5.1']
+Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '6.4.1']
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/autonomousapps/dependency-analysis-gradle-plugin/3.5.1/dependency-analysis-gradle-plugin-3.5.1.pom]
+Cached resource https://plugins.gradle.org/m2/com/autonomousapps/dependency-analysis-gradle-plugin/3.5.1/dependency-analysis-gradle-plugin-3.5.1.pom is up-to-date (lastModified: Wed Nov 26 21:57:51 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-bom/2.0.21/kotlin-bom-2.0.21.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-bom/2.0.21/kotlin-bom-2.0.21.pom is up-to-date (lastModified: Thu Oct 10 11:42:10 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/squareup/okio/okio-bom/3.16.4/okio-bom-3.16.4.pom]
+Cached resource https://plugins.gradle.org/m2/com/squareup/okio/okio-bom/3.16.4/okio-bom-3.16.4.pom is up-to-date (lastModified: Tue Nov 18 00:08:45 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/squareup/okio/okio-bom/3.16.4/okio-bom-3.16.4.module is up-to-date (lastModified: Tue Nov 18 00:08:47 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/autonomousapps/dependency-analysis-gradle-plugin/3.5.1/dependency-analysis-gradle-plugin-3.5.1.module is up-to-date (lastModified: Wed Nov 26 21:57:53 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/autonomousapps/graph-support/0.9.0/graph-support-0.9.0.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/autonomousapps/asm-relocated/9.9.0/asm-relocated-9.9.0.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/autonomousapps/variant-artifacts/0.3.3/variant-artifacts-0.3.3.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-metadata-jvm/2.2.20/kotlin-metadata-jvm-2.2.20.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/squareup/moshi/moshi-kotlin/1.15.2/moshi-kotlin-1.15.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/dev/zacsweers/moshix/moshi-sealed-reflect/0.30.0/moshi-sealed-reflect-0.30.0.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/squareup/okio/okio/3.16.4/okio-3.16.4.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/github/ben-manes/caffeine/caffeine/3.2.3/caffeine-3.2.3.pom]
+Cached resource https://plugins.gradle.org/m2/com/autonomousapps/graph-support/0.9.0/graph-support-0.9.0.pom is up-to-date (lastModified: Tue Oct 21 23:05:57 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/autonomousapps/antlr/4.13.2.0/antlr-4.13.2.0.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/autonomousapps/kotlin-editor-relocated/0.18.0/kotlin-editor-relocated-0.18.0.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/2.0.21/kotlin-stdlib-jdk8-2.0.21.pom]
+Cached resource https://plugins.gradle.org/m2/com/autonomousapps/asm-relocated/9.9.0/asm-relocated-9.9.0.pom is up-to-date (lastModified: Wed Oct 08 20:12:12 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/autonomousapps/variant-artifacts/0.3.3/variant-artifacts-0.3.3.pom is up-to-date (lastModified: Wed Sep 17 20:33:36 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.pom is up-to-date (lastModified: Wed Sep 17 23:19:36 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-metadata-jvm/2.2.20/kotlin-metadata-jvm-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/dev/zacsweers/moshix/moshi-sealed-reflect/0.30.0/moshi-sealed-reflect-0.30.0.pom is up-to-date (lastModified: Wed Mar 26 20:58:06 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/squareup/moshi/moshi-kotlin/1.15.2/moshi-kotlin-1.15.2.pom is up-to-date (lastModified: Thu Dec 05 19:51:46 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/autonomousapps/antlr/4.13.2.0/antlr-4.13.2.0.pom is up-to-date (lastModified: Sat Jan 11 02:45:25 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/squareup/okio/okio/3.16.4/okio-3.16.4.pom is up-to-date (lastModified: Tue Nov 18 00:08:45 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/github/ben-manes/caffeine/caffeine/3.2.3/caffeine-3.2.3.pom is up-to-date (lastModified: Tue Oct 28 07:47:23 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/autonomousapps/graph-support/0.9.0/graph-support-0.9.0.module is up-to-date (lastModified: Tue Oct 21 23:05:57 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/autonomousapps/asm-relocated/9.9.0/asm-relocated-9.9.0.module is up-to-date (lastModified: Wed Oct 08 20:12:12 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/2.0.21/kotlin-stdlib-jdk8-2.0.21.pom is up-to-date (lastModified: Thu Oct 10 11:41:11 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/autonomousapps/variant-artifacts/0.3.3/variant-artifacts-0.3.3.module is up-to-date (lastModified: Wed Sep 17 20:33:36 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/dev/zacsweers/moshix/moshi-sealed-reflect/0.30.0/moshi-sealed-reflect-0.30.0.module is up-to-date (lastModified: Wed Mar 26 20:58:06 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/squareup/okio/okio/3.16.4/okio-3.16.4.module is up-to-date (lastModified: Tue Nov 18 00:08:48 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/squareup/moshi/moshi-kotlin/1.15.2/moshi-kotlin-1.15.2.module is up-to-date (lastModified: Thu Dec 05 19:51:47 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/autonomousapps/kotlin-editor-relocated/0.18.0/kotlin-editor-relocated-0.18.0.pom is up-to-date (lastModified: Sat Jan 11 02:53:09 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/autonomousapps/antlr/4.13.2.0/antlr-4.13.2.0.module is up-to-date (lastModified: Sat Jan 11 02:45:27 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/github/ben-manes/caffeine/caffeine/3.2.3/caffeine-3.2.3.module is up-to-date (lastModified: Tue Oct 28 07:47:23 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/guava/guava-parent/33.5.0-jre/guava-parent-33.5.0-jre.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/squareup/moshi/moshi/1.15.2/moshi-1.15.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/dev/zacsweers/moshix/moshi-sealed-runtime/0.30.0/moshi-sealed-runtime-0.30.0.pom]
+Cached resource https://plugins.gradle.org/m2/javax/inject/javax.inject/1/javax.inject-1.pom is up-to-date (lastModified: Wed Oct 14 02:35:00 TRST 2009).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-reflect/2.0.21/kotlin-reflect-2.0.21.pom]
+Cached resource https://plugins.gradle.org/m2/com/google/guava/guava-parent/33.5.0-jre/guava-parent-33.5.0-jre.pom is up-to-date (lastModified: Wed Sep 17 23:19:36 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-reflect/2.0.21/kotlin-reflect-2.0.21.pom is up-to-date (lastModified: Thu Oct 10 11:40:42 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/squareup/moshi/moshi/1.15.2/moshi-1.15.2.pom is up-to-date (lastModified: Thu Dec 05 19:51:33 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/dev/zacsweers/moshix/moshi-sealed-runtime/0.30.0/moshi-sealed-runtime-0.30.0.pom is up-to-date (lastModified: Wed Mar 26 20:58:02 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/autonomousapps/kotlin-editor-relocated/0.18.0/kotlin-editor-relocated-0.18.0.module is up-to-date (lastModified: Sat Jan 11 02:53:13 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.module is up-to-date (lastModified: Wed Sep 17 23:19:36 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/squareup/moshi/moshi/1.15.2/moshi-1.15.2.module is up-to-date (lastModified: Thu Dec 05 19:51:36 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/dev/zacsweers/moshix/moshi-sealed-runtime/0.30.0/moshi-sealed-runtime-0.30.0.module is up-to-date (lastModified: Wed Mar 26 20:58:04 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.pom]
+Cached resource https://plugins.gradle.org/m2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom is up-to-date (lastModified: Tue Sep 11 22:40:43 TRT 2018).
+Cached resource https://plugins.gradle.org/m2/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.pom is up-to-date (lastModified: Thu Jul 24 18:38:10 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.pom is up-to-date (lastModified: Thu Aug 14 20:49:49 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.pom is up-to-date (lastModified: Wed Mar 19 19:15:50 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.pom is up-to-date (lastModified: Wed Jul 17 00:00:10 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.module is up-to-date (lastModified: Wed Jul 17 00:00:10 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/errorprone/error_prone_parent/2.41.0/error_prone_parent-2.41.0.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom]
+Cached resource https://plugins.gradle.org/m2/com/google/errorprone/error_prone_parent/2.41.0/error_prone_parent-2.41.0.pom is up-to-date (lastModified: Thu Jul 24 18:38:10 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/guava/guava-parent/33.4.0-android/guava-parent-33.4.0-android.pom]
+Cached resource https://plugins.gradle.org/m2/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom is up-to-date (lastModified: Thu Aug 02 00:40:05 TRT 2018).
+Cached resource https://plugins.gradle.org/m2/com/google/guava/guava-parent/33.4.0-android/guava-parent-33.4.0-android.pom is up-to-date (lastModified: Tue Dec 17 00:46:00 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom]
+Cached resource https://plugins.gradle.org/m2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom is up-to-date (lastModified: Mon Jan 27 21:15:21 TRT 2014).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-reflect/2.1.20/kotlin-reflect-2.1.20.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-reflect/2.1.20/kotlin-reflect-2.1.20.pom is up-to-date (lastModified: Wed Mar 19 21:39:20 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/squareup/kotlinpoet/2.1.0/kotlinpoet-2.1.0.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/squareup/moshi/moshi-adapters/1.15.2/moshi-adapters-1.15.2.pom]
+Cached resource https://plugins.gradle.org/m2/com/squareup/moshi/moshi-adapters/1.15.2/moshi-adapters-1.15.2.pom is up-to-date (lastModified: Thu Dec 05 19:51:37 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/squareup/kotlinpoet/2.1.0/kotlinpoet-2.1.0.pom is up-to-date (lastModified: Tue Feb 25 14:21:32 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/squareup/moshi/moshi-adapters/1.15.2/moshi-adapters-1.15.2.module is up-to-date (lastModified: Thu Dec 05 19:51:38 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/squareup/kotlinpoet/2.1.0/kotlinpoet-2.1.0.module is up-to-date (lastModified: Tue Feb 25 14:21:33 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/squareup/okio/okio-jvm/3.16.4/okio-jvm-3.16.4.pom]
+Cached resource https://plugins.gradle.org/m2/com/squareup/okio/okio-jvm/3.16.4/okio-jvm-3.16.4.pom is up-to-date (lastModified: Tue Nov 18 00:08:45 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/squareup/okio/okio-jvm/3.16.4/okio-jvm-3.16.4.module is up-to-date (lastModified: Tue Nov 18 00:08:47 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/errorprone/error_prone_annotations/2.43.0/error_prone_annotations-2.43.0.pom]
+Cached resource https://plugins.gradle.org/m2/com/google/errorprone/error_prone_annotations/2.43.0/error_prone_annotations-2.43.0.pom is up-to-date (lastModified: Wed Oct 22 17:14:10 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/errorprone/error_prone_parent/2.43.0/error_prone_parent-2.43.0.pom]
+Cached resource https://plugins.gradle.org/m2/com/google/errorprone/error_prone_parent/2.43.0/error_prone_parent-2.43.0.pom is up-to-date (lastModified: Wed Oct 22 17:14:10 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-annotations/2.2.20/kotlin-gradle-plugin-annotations-2.2.20.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-api/2.2.20/kotlin-build-tools-api-2.2.20.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-tools-api/2.2.20/kotlin-build-tools-api-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-native-utils/2.2.20/kotlin-native-utils-2.2.20.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-annotations/2.2.20/kotlin-gradle-plugin-annotations-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-tooling-core/2.2.20/kotlin-tooling-core-2.2.20.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-native-utils/2.2.20/kotlin-native-utils-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-tooling-core/2.2.20/kotlin-tooling-core-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/2.0.21/kotlin-stdlib-jdk7-2.0.21.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/2.0.21/kotlin-stdlib-jdk7-2.0.21.pom is up-to-date (lastModified: Thu Oct 10 11:41:11 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/squareup/kotlinpoet-jvm/2.1.0/kotlinpoet-jvm-2.1.0.pom]
+Cached resource https://plugins.gradle.org/m2/com/squareup/kotlinpoet-jvm/2.1.0/kotlinpoet-jvm-2.1.0.pom is up-to-date (lastModified: Tue Feb 25 14:21:26 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/squareup/kotlinpoet-jvm/2.1.0/kotlinpoet-jvm-2.1.0.module is up-to-date (lastModified: Tue Feb 25 14:21:29 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-util-klib/2.2.20/kotlin-util-klib-2.2.20.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-util-io/2.2.20/kotlin-util-io-2.2.20.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-klib/2.2.20/kotlin-util-klib-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-io/2.2.20/kotlin-util-io-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-daemon-client/2.2.20/kotlin-daemon-client-2.2.20.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-client/2.2.20/kotlin-daemon-client-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/squareup/moshi/moshi/1.15.2/moshi-1.15.2.jar is up-to-date (lastModified: Thu Dec 05 19:51:33 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/squareup/moshi/moshi-kotlin/1.15.2/moshi-kotlin-1.15.2.jar is up-to-date (lastModified: Thu Dec 05 19:51:43 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar is up-to-date (lastModified: Wed Sep 17 23:19:36 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/dev/zacsweers/moshix/moshi-sealed-runtime/0.30.0/moshi-sealed-runtime-0.30.0.jar is up-to-date (lastModified: Wed Mar 26 20:58:02 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/dev/zacsweers/moshix/moshi-sealed-reflect/0.30.0/moshi-sealed-reflect-0.30.0.jar is up-to-date (lastModified: Wed Mar 26 20:58:05 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/squareup/moshi/moshi-adapters/1.15.2/moshi-adapters-1.15.2.jar is up-to-date (lastModified: Thu Dec 05 19:51:37 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/squareup/kotlinpoet-jvm/2.1.0/kotlinpoet-jvm-2.1.0.jar is up-to-date (lastModified: Tue Feb 25 14:21:25 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-reflect/2.1.20/kotlin-reflect-2.1.20.jar is up-to-date (lastModified: Wed Mar 19 21:39:20 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/squareup/okio/okio-jvm/3.16.4/okio-jvm-3.16.4.jar is up-to-date (lastModified: Tue Nov 18 00:08:46 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/2.0.21/kotlin-stdlib-jdk7-2.0.21.jar is up-to-date (lastModified: Thu Oct 10 11:41:10 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/autonomousapps/variant-artifacts/0.3.3/variant-artifacts-0.3.3.jar is up-to-date (lastModified: Wed Sep 17 20:33:36 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/javax/inject/javax.inject/1/javax.inject-1.jar is up-to-date (lastModified: Wed Oct 14 02:35:00 TRST 2009).
+Cached resource https://plugins.gradle.org/m2/com/autonomousapps/graph-support/0.9.0/graph-support-0.9.0.jar is up-to-date (lastModified: Tue Oct 21 23:05:57 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/2.0.21/kotlin-stdlib-jdk8-2.0.21.jar is up-to-date (lastModified: Thu Oct 10 11:41:11 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-metadata-jvm/2.2.20/kotlin-metadata-jvm-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:08 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/github/ben-manes/caffeine/caffeine/3.2.3/caffeine-3.2.3.jar is up-to-date (lastModified: Tue Oct 28 07:47:23 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/autonomousapps/antlr/4.13.2.0/antlr-4.13.2.0.jar is up-to-date (lastModified: Sat Jan 11 02:45:24 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/autonomousapps/asm-relocated/9.9.0/asm-relocated-9.9.0.jar is up-to-date (lastModified: Wed Oct 08 20:12:12 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/fus-statistics-gradle-plugin/2.2.20/fus-statistics-gradle-plugin-2.2.20-gradle813.jar is up-to-date (lastModified: Tue Sep 09 22:07:07 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/2.2.20/kotlin-gradle-plugin-api-2.2.20-gradle813.jar is up-to-date (lastModified: Tue Sep 09 22:07:04 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/2.2.20/kotlin-gradle-plugin-model-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:07 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/autonomousapps/kotlin-editor-relocated/0.18.0/kotlin-editor-relocated-0.18.0.jar is up-to-date (lastModified: Sat Jan 11 02:53:08 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar is up-to-date (lastModified: Tue Sep 11 22:40:43 TRT 2018).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-client/2.2.20/kotlin-daemon-client-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-assignment/2.2.20/kotlin-assignment-2.2.20-gradle813.jar is up-to-date (lastModified: Wed Sep 10 10:58:58 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-runner/2.2.20/kotlin-compiler-runner-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:07 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar is up-to-date (lastModified: Wed Jul 17 00:00:10 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar is up-to-date (lastModified: Wed Mar 19 19:15:51 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-sam-with-receiver/2.2.20/kotlin-sam-with-receiver-2.2.20-gradle813.jar is up-to-date (lastModified: Wed Sep 10 10:59:58 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/google/errorprone/error_prone_annotations/2.43.0/error_prone_annotations-2.43.0.jar is up-to-date (lastModified: Wed Oct 22 17:14:10 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar is up-to-date (lastModified: Thu Aug 14 20:49:49 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin/2.2.20/kotlin-gradle-plugin-2.2.20-gradle813.jar is up-to-date (lastModified: Wed Sep 10 10:59:55 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea/2.2.20/kotlin-gradle-plugin-idea-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:05 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea-proto/2.2.20/kotlin-gradle-plugin-idea-proto-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:09 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-statistics/2.2.20/kotlin-build-statistics-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:07 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-klib-metadata/2.2.20/kotlin-util-klib-metadata-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:04 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/abi-tools-api/2.2.20/abi-tools-api-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-klib-commonizer-api/2.2.20/kotlin-klib-commonizer-api-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:06 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/autonomousapps/dependency-analysis-gradle-plugin/3.5.1/dependency-analysis-gradle-plugin-3.5.1.jar is up-to-date (lastModified: Wed Nov 26 21:57:55 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-annotations/2.2.20/kotlin-gradle-plugin-annotations-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:07 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-native-utils/2.2.20/kotlin-native-utils-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:04 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-tools-api/2.2.20/kotlin-build-tools-api-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:10 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-tooling-core/2.2.20/kotlin-tooling-core-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:04 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-klib/2.2.20/kotlin-util-klib-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:10 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/2.2.20/kotlin-gradle-plugin-api-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:05 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-io/2.2.20/kotlin-util-io-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+AGP not on classpath; assuming non-Android project
+Build 34fc799c-4d3d-447c-bbce-b296139627a9 is started
+Using Kotlin Gradle Plugin gradle813 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+file or directory '/home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/dependencies/src/main/kotlin', not found
+(dependency analysis) : was already configured for the java-library plugin
+
+> Configure project :publicsuffixlist
+Resolved plugin [id: 'com.autonomousapps.dependency-analysis', version: '3.5.1']
+Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '6.4.1']
+AGP not on classpath; assuming non-Android project
+Build a91d6764-52da-4bca-9393-27e9943033f5 is started
+Using Kotlin Gradle Plugin gradle813 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+file or directory '/home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/publicsuffixlist/src/main/kotlin', not found
+(dependency analysis) : was already configured for the java-library plugin
+Registering project ':dependencies' in composite build. Will substitute for module ':dependencies'.
+Resolved plugin [id: 'mozac.DependenciesPlugin']
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/charleskorn/kaml/kaml/0.61.0/kaml-0.61.0.pom]
+Cached resource https://plugins.gradle.org/m2/com/charleskorn/kaml/kaml/0.61.0/kaml-0.61.0.pom is up-to-date (lastModified: Sun Jul 28 14:33:58 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/charleskorn/kaml/kaml/0.61.0/kaml-0.61.0.module is up-to-date (lastModified: Sun Jul 28 14:34:00 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/charleskorn/kaml/kaml-jvm/0.61.0/kaml-jvm-0.61.0.pom]
+Cached resource https://plugins.gradle.org/m2/com/charleskorn/kaml/kaml-jvm/0.61.0/kaml-jvm-0.61.0.pom is up-to-date (lastModified: Sun Jul 28 14:33:53 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/charleskorn/kaml/kaml-jvm/0.61.0/kaml-jvm-0.61.0.module is up-to-date (lastModified: Sun Jul 28 14:33:54 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.0.0/kotlin-stdlib-2.0.0.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core/1.7.1/kotlinx-serialization-core-1.7.1.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/it/krzeminski/snakeyaml-engine-kmp/3.0.1/snakeyaml-engine-kmp-3.0.1.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/squareup/okio/okio/3.9.0/okio-3.9.0.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.0.0/kotlin-stdlib-2.0.0.pom is up-to-date (lastModified: Mon May 20 19:12:51 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/squareup/okio/okio/3.9.0/okio-3.9.0.pom is up-to-date (lastModified: Wed Mar 13 05:47:46 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.0.0/kotlin-stdlib-2.0.0.module is up-to-date (lastModified: Mon May 20 19:12:50 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/squareup/okio/okio/3.9.0/okio-3.9.0.module is up-to-date (lastModified: Wed Mar 13 05:47:48 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-serialization-core/1.7.1/kotlinx-serialization-core-1.7.1.pom is up-to-date (lastModified: Tue Jun 25 17:25:47 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/it/krzeminski/snakeyaml-engine-kmp/3.0.1/snakeyaml-engine-kmp-3.0.1.pom is up-to-date (lastModified: Sun Jul 14 23:25:45 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/it/krzeminski/snakeyaml-engine-kmp/3.0.1/snakeyaml-engine-kmp-3.0.1.module is up-to-date (lastModified: Sun Jul 14 23:25:46 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-bom/1.7.1/kotlinx-serialization-bom-1.7.1.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-serialization-bom/1.7.1/kotlinx-serialization-bom-1.7.1.pom is up-to-date (lastModified: Tue Jun 25 17:22:22 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-serialization-core/1.7.1/kotlinx-serialization-core-1.7.1.module is up-to-date (lastModified: Tue Jun 25 17:25:48 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.7.1/kotlinx-serialization-core-jvm-1.7.1.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.7.1/kotlinx-serialization-core-jvm-1.7.1.pom is up-to-date (lastModified: Tue Jun 25 17:25:22 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.7.1/kotlinx-serialization-core-jvm-1.7.1.module is up-to-date (lastModified: Tue Jun 25 17:25:30 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/it/krzeminski/snakeyaml-engine-kmp-jvm/3.0.1/snakeyaml-engine-kmp-jvm-3.0.1.pom]
+Cached resource https://plugins.gradle.org/m2/it/krzeminski/snakeyaml-engine-kmp-jvm/3.0.1/snakeyaml-engine-kmp-jvm-3.0.1.pom is up-to-date (lastModified: Sun Jul 14 23:25:35 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/it/krzeminski/snakeyaml-engine-kmp-jvm/3.0.1/snakeyaml-engine-kmp-jvm-3.0.1.module is up-to-date (lastModified: Sun Jul 14 23:25:38 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/squareup/okio/okio-jvm/3.9.0/okio-jvm-3.9.0.pom]
+Cached resource https://plugins.gradle.org/m2/com/squareup/okio/okio-jvm/3.9.0/okio-jvm-3.9.0.pom is up-to-date (lastModified: Wed Mar 13 05:47:32 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/squareup/okio/okio-jvm/3.9.0/okio-jvm-3.9.0.module is up-to-date (lastModified: Wed Mar 13 05:47:39 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/2.0.0/kotlin-stdlib-common-2.0.0.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-common/2.0.0/kotlin-stdlib-common-2.0.0.pom is up-to-date (lastModified: Mon May 20 19:12:50 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-common/2.0.0/kotlin-stdlib-common-2.0.0.module is up-to-date (lastModified: Mon May 20 19:12:50 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/net/thauvin/erik/urlencoder/urlencoder-lib/1.5.0/urlencoder-lib-1.5.0.pom]
+Cached resource https://plugins.gradle.org/m2/net/thauvin/erik/urlencoder/urlencoder-lib/1.5.0/urlencoder-lib-1.5.0.pom is up-to-date (lastModified: Thu Mar 28 08:12:51 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/net/thauvin/erik/urlencoder/urlencoder-lib/1.5.0/urlencoder-lib-1.5.0.module is up-to-date (lastModified: Thu Mar 28 08:12:52 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/net/thauvin/erik/urlencoder/urlencoder-lib-jvm/1.5.0/urlencoder-lib-jvm-1.5.0.pom]
+Cached resource https://plugins.gradle.org/m2/net/thauvin/erik/urlencoder/urlencoder-lib-jvm/1.5.0/urlencoder-lib-jvm-1.5.0.pom is up-to-date (lastModified: Thu Mar 28 08:12:47 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/net/thauvin/erik/urlencoder/urlencoder-lib-jvm/1.5.0/urlencoder-lib-jvm-1.5.0.module is up-to-date (lastModified: Thu Mar 28 08:12:48 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-reflect/2.2.20/kotlin-reflect-2.2.20.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-reflect/2.2.20/kotlin-reflect-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/2.2.20/kotlin-stdlib-common-2.2.20.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-common/2.2.20/kotlin-stdlib-common-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-common/2.2.20/kotlin-stdlib-common-2.2.20.module is up-to-date (lastModified: Tue Sep 09 22:07:06 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-serialization-compiler-plugin-embeddable/2.3.10/kotlin-serialization-compiler-plugin-embeddable-2.3.10.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-assignment-compiler-plugin-embeddable/2.3.10/kotlin-assignment-compiler-plugin-embeddable-2.3.10.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin-embeddable/2.3.10/kotlin-sam-with-receiver-compiler-plugin-embeddable-2.3.10.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.3.10/kotlin-scripting-compiler-embeddable-2.3.10.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin-embeddable/2.3.10/kotlin-sam-with-receiver-compiler-plugin-embeddable-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-assignment-compiler-plugin-embeddable/2.3.10/kotlin-assignment-compiler-plugin-embeddable-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-serialization-compiler-plugin-embeddable/2.3.10/kotlin-serialization-compiler-plugin-embeddable-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.3.10/kotlin-scripting-compiler-embeddable-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.3.10/kotlin-scripting-jvm-2.3.10.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/2.3.10/kotlin-scripting-common-2.3.10.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.3.10/kotlin-scripting-compiler-impl-embeddable-2.3.10.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.3.10/kotlin-stdlib-2.3.10.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.3.10/kotlin-scripting-jvm-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.3.10/kotlin-scripting-compiler-impl-embeddable-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-common/2.3.10/kotlin-scripting-common-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.3.10/kotlin-stdlib-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.3.10/kotlin-stdlib-2.3.10.module is up-to-date (lastModified: Wed Feb 04 21:07:28 TRT 2026).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-script-runtime/2.3.10/kotlin-script-runtime-2.3.10.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-script-runtime/2.3.10/kotlin-script-runtime-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.3.10/kotlin-compiler-embeddable-2.3.10.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.3.10/kotlin-compiler-embeddable-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/2.3.10/kotlin-daemon-embeddable-2.3.10.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.6.10/kotlin-reflect-1.6.10.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-reflect/1.6.10/kotlin-reflect-1.6.10.pom is up-to-date (lastModified: Tue Dec 14 08:50:36 TRT 2021).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-embeddable/2.3.10/kotlin-daemon-embeddable-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin-embeddable/2.2.20/kotlin-sam-with-receiver-compiler-plugin-embeddable-2.2.20.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-assignment-compiler-plugin-embeddable/2.2.20/kotlin-assignment-compiler-plugin-embeddable-2.2.20.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.2.20/kotlin-scripting-compiler-embeddable-2.2.20.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-assignment-compiler-plugin-embeddable/2.2.20/kotlin-assignment-compiler-plugin-embeddable-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin-embeddable/2.2.20/kotlin-sam-with-receiver-compiler-plugin-embeddable-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.2.20/kotlin-scripting-compiler-embeddable-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.2.20/kotlin-scripting-compiler-impl-embeddable-2.2.20.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.2.20/kotlin-scripting-jvm-2.2.20.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/2.2.20/kotlin-scripting-common-2.2.20.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.2.20/kotlin-scripting-compiler-impl-embeddable-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-common/2.2.20/kotlin-scripting-common-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.2.20/kotlin-scripting-jvm-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-script-runtime/2.2.20/kotlin-script-runtime-2.2.20.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-script-runtime/2.2.20/kotlin-script-runtime-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.2.20/kotlin-compiler-embeddable-2.2.20.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.2.20/kotlin-compiler-embeddable-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/2.2.20/kotlin-daemon-embeddable-2.2.20.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-embeddable/2.2.20/kotlin-daemon-embeddable-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Resolve mutations for :dependencies:checkKotlinGradlePluginConfigurationErrors (Thread[included builds Thread 2,5,main]) started.
+Resolve mutations for :conventions:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 11,5,main]) started.
+:dependencies:checkKotlinGradlePluginConfigurationErrors (Thread[included builds Thread 2,5,main]) started.
+:conventions:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 9,5,main]) started.
+
+> Task :dependencies:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':dependencies:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+
+> Task :conventions:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':conventions:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :dependencies:compileKotlin (Thread[included builds Thread 2,5,main]) started.
+Resolve mutations for :conventions:compileKotlin (Thread[Execution worker Thread 9,5,main]) started.
+:dependencies:compileKotlin (Thread[included builds Thread 2,5,main]) started.
+:conventions:compileKotlin (Thread[Execution worker Thread 9,5,main]) started.
+
+> Task :dependencies:compileKotlin
+Invalidating in-memory cache of /home/apobennol/.gradle/caches/journal-1/file-access.bin
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-reflect/2.2.20/kotlin-reflect-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-impl/2.2.20/kotlin-build-tools-impl-2.2.20.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-tools-impl/2.2.20/kotlin-build-tools-impl-2.2.20.pom is up-to-date (lastModified: Tue Sep 09 22:07:03 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-reflect/1.6.10/kotlin-reflect-1.6.10.jar is up-to-date (lastModified: Tue Dec 14 08:50:35 TRT 2021).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-script-runtime/2.2.20/kotlin-script-runtime-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:05 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.2.20/kotlin-scripting-jvm-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:04 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-embeddable/2.2.20/kotlin-daemon-embeddable-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:04 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.2.20/kotlin-scripting-compiler-impl-embeddable-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:05 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-common/2.2.20/kotlin-scripting-common-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:08 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-tools-impl/2.2.20/kotlin-build-tools-impl-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:06 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.2.20/kotlin-compiler-embeddable-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:05 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.2.20/kotlin-scripting-compiler-embeddable-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:05 TRT 2025).
+Invalidating in-memory cache of /home/apobennol/.gradle/caches/9.2.1/fileHashes/kotlinDslCompileAvoidanceClasspathHashCache.bin
+Invalidating in-memory cache of /home/apobennol/.gradle/caches/9.2.1/fileHashes/fileHashes.bin
+Invalidating in-memory cache of /home/apobennol/.gradle/caches/9.2.1/fileHashes/resourceHashesCache.bin
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin-embeddable/2.2.20/kotlin-sam-with-receiver-compiler-plugin-embeddable-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:06 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-assignment-compiler-plugin-embeddable/2.2.20/kotlin-assignment-compiler-plugin-embeddable-2.2.20.jar is up-to-date (lastModified: Tue Sep 09 22:07:08 TRT 2025).
+Caching disabled for task ':dependencies:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':dependencies:compileKotlin' as it is up-to-date.
+
+> Task :dependencies:compileKotlin UP-TO-DATE
+Resolve mutations for :dependencies:compileJava (Thread[included builds Thread 2,5,main]) started.
+:dependencies:compileJava (Thread[included builds Thread 2,5,main]) started.
+
+> Task :dependencies:compileJava NO-SOURCE
+Skipping task ':dependencies:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :dependencies:pluginDescriptors (Thread[included builds Thread 2,5,main]) started.
+:dependencies:pluginDescriptors (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :dependencies:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':dependencies:pluginDescriptors' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':dependencies:pluginDescriptors' as it is up-to-date.
+Resolve mutations for :dependencies:processResources (Thread[Execution worker Thread 10,5,main]) started.
+:dependencies:processResources (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :dependencies:processResources UP-TO-DATE
+Caching disabled for task ':dependencies:processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':dependencies:processResources' as it is up-to-date.
+Resolve mutations for :dependencies:classes (Thread[Execution worker Thread 10,5,main]) started.
+:dependencies:classes (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :dependencies:classes UP-TO-DATE
+Skipping task ':dependencies:classes' as it has no actions.
+Resolve mutations for :dependencies:jar (Thread[Execution worker Thread 10,5,main]) started.
+:dependencies:jar (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :dependencies:jar UP-TO-DATE
+Caching disabled for task ':dependencies:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':dependencies:jar' as it is up-to-date.
+
+> Task :conventions:compileKotlin
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.7.1/kotlinx-serialization-core-jvm-1.7.1.jar is up-to-date (lastModified: Tue Jun 25 17:25:17 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/charleskorn/kaml/kaml-jvm/0.61.0/kaml-jvm-0.61.0.jar is up-to-date (lastModified: Sun Jul 28 14:33:52 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-compat/2.3.10/kotlin-build-tools-compat-2.3.10.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-impl/2.3.10/kotlin-build-tools-impl-2.3.10.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-tools-compat/2.3.10/kotlin-build-tools-compat-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-tools-impl/2.3.10/kotlin-build-tools-impl-2.3.10.pom is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-tools-impl/2.3.10/kotlin-build-tools-impl-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:27 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-embeddable/2.3.10/kotlin-daemon-embeddable-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:28 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.3.10/kotlin-stdlib-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:29 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-script-runtime/2.3.10/kotlin-script-runtime-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:26 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.3.10/kotlin-compiler-embeddable-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:22 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-tools-compat/2.3.10/kotlin-build-tools-compat-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:25 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.3.10/kotlin-scripting-compiler-embeddable-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:28 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-common/2.3.10/kotlin-scripting-common-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:23 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.3.10/kotlin-scripting-jvm-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:26 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.3.10/kotlin-scripting-compiler-impl-embeddable-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:27 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-assignment-compiler-plugin-embeddable/2.3.10/kotlin-assignment-compiler-plugin-embeddable-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:26 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-serialization-compiler-plugin-embeddable/2.3.10/kotlin-serialization-compiler-plugin-embeddable-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:26 TRT 2026).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin-embeddable/2.3.10/kotlin-sam-with-receiver-compiler-plugin-embeddable-2.3.10.jar is up-to-date (lastModified: Wed Feb 04 21:07:24 TRT 2026).
+Caching disabled for task ':conventions:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':conventions:compileKotlin' as it is up-to-date.
+
+> Task :conventions:compileKotlin UP-TO-DATE
+Resolve mutations for :conventions:compileJava (Thread[Execution worker Thread 9,5,main]) started.
+:conventions:compileJava (Thread[Execution worker Thread 9,5,main]) started.
+
+> Task :conventions:compileJava NO-SOURCE
+Skipping task ':conventions:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :conventions:pluginDescriptors (Thread[Execution worker Thread 9,5,main]) started.
+:conventions:pluginDescriptors (Thread[Execution worker Thread 9,5,main]) started.
+
+> Task :conventions:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':conventions:pluginDescriptors' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':conventions:pluginDescriptors' as it is up-to-date.
+Resolve mutations for :conventions:processResources (Thread[Execution worker Thread 9,5,main]) started.
+:conventions:processResources (Thread[Execution worker Thread 9,5,main]) started.
+
+> Task :conventions:processResources UP-TO-DATE
+Caching disabled for task ':conventions:processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':conventions:processResources' as it is up-to-date.
+Resolve mutations for :conventions:classes (Thread[Execution worker Thread 9,5,main]) started.
+:conventions:classes (Thread[Execution worker Thread 9,5,main]) started.
+
+> Task :conventions:classes UP-TO-DATE
+Skipping task ':conventions:classes' as it has no actions.
+Resolve mutations for :conventions:jar (Thread[Execution worker Thread 9,5,main]) started.
+:conventions:jar (Thread[Execution worker Thread 9,5,main]) started.
+
+> Task :conventions:jar UP-TO-DATE
+Caching disabled for task ':conventions:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':conventions:jar' as it is up-to-date.
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.0.0/kotlin-stdlib-2.0.0.jar is up-to-date (lastModified: Mon May 20 19:12:50 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/squareup/okio/okio-jvm/3.9.0/okio-jvm-3.9.0.jar is up-to-date (lastModified: Wed Mar 13 05:47:31 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/it/krzeminski/snakeyaml-engine-kmp-jvm/3.0.1/snakeyaml-engine-kmp-jvm-3.0.1.jar is up-to-date (lastModified: Sun Jul 14 23:25:33 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/net/thauvin/erik/urlencoder/urlencoder-lib-jvm/1.5.0/urlencoder-lib-jvm-1.5.0.jar is up-to-date (lastModified: Thu Mar 28 08:12:47 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/yaml/snakeyaml/2.2/snakeyaml-2.2.pom]
+Cached resource https://plugins.gradle.org/m2/org/yaml/snakeyaml/2.2/snakeyaml-2.2.pom is up-to-date (lastModified: Sun Aug 27 11:26:37 TRT 2023).
+Cached resource https://plugins.gradle.org/m2/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar is up-to-date (lastModified: Sun Aug 27 11:26:35 TRT 2023).
+Settings evaluated using settings file '/home/apobennol/Masaüstü/zen-Android/zen-android-src/settings.gradle'.
+Projects loaded. Root project using build file '/home/apobennol/Masaüstü/zen-Android/zen-android-src/build.gradle'.
+Included projects: [root project 'zen-android-src', project ':app', project ':benchmark', project ':components', project ':mozilla-detekt-rules', project ':components:browser-domains', project ':components:browser-engine-gecko', project ':components:browser-engine-system', project ':components:browser-errorpages', project ':components:browser-icons', project ':components:browser-menu', project ':components:browser-menu2', project ':components:browser-session-storage', project ':components:browser-state', project ':components:browser-storage-sync', project ':components:browser-tabstray', project ':components:browser-thumbnails', project ':components:browser-toolbar', project ':components:compose-awesomebar', project ':components:compose-base', project ':components:compose-browser-toolbar', project ':components:compose-cfr', project ':components:compose-engine', project ':components:compose-tabstray', project ':components:concept-accelerometer', project ':components:concept-awesomebar', project ':components:concept-base', project ':components:concept-engine', project ':components:concept-fetch', project ':components:concept-integrity', project ':components:concept-llm', project ':components:concept-menu', project ':components:concept-push', project ':components:concept-storage', project ':components:concept-sync', project ':components:concept-tabstray', project ':components:concept-toolbar', project ':components:feature-accounts', project ':components:feature-accounts-push', project ':components:feature-addons', project ':components:feature-app-links', project ':components:feature-autofill', project ':components:feature-awesomebar', project ':components:feature-containers', project ':components:feature-contextmenu', project ':components:feature-customtabs', project ':components:feature-downloads', project ':components:feature-findinpage', project ':components:feature-fxsuggest', project ':components:feature-intent', project ':components:feature-logins', project ':components:feature-media', project ':components:feature-privatemode', project ':components:feature-prompts', project ':components:feature-protection-dashboard', project ':components:feature-push', project ':components:feature-pwa', project ':components:feature-qr', project ':components:feature-readerview', project ':components:feature-recentlyclosed', project ':components:feature-screendetection', project ':components:feature-search', project ':components:feature-serviceworker', project ':components:feature-session', project ':components:feature-share', project ':components:feature-sitepermissions', project ':components:feature-summarize', project ':components:feature-syncedtabs', project ':components:feature-tab-collections', project ':components:feature-tabs', project ':components:feature-toolbar', project ':components:feature-top-sites', project ':components:feature-webauthn', project ':components:feature-webcompat', project ':components:feature-webcompat-reporter', project ':components:feature-webnotifications', project ':components:lib-accelerometer-sensormanager', project ':components:lib-auth', project ':components:lib-crash', project ':components:lib-crash-sentry', project ':components:lib-dataprotect', project ':components:lib-fetch-httpurlconnection', project ':components:lib-fetch-okhttp', project ':components:lib-integrity-googleplay', project ':components:lib-jexl', project ':components:lib-llm-gemininano', project ':components:lib-llm-mlpa', project ':components:lib-publicsuffixlist', project ':components:lib-push-firebase', project ':components:lib-shake', project ':components:lib-state', project ':components:service-digitalassetlinks', project ':components:service-firefox-accounts', project ':components:service-firefox-relay', project ':components:service-glean', project ':components:service-location', project ':components:service-mars', project ':components:service-nimbus', project ':components:service-pocket', project ':components:service-sync-autofill', project ':components:service-sync-logins', project ':components:support-android-test', project ':components:support-appservices', project ':components:support-base', project ':components:support-images', project ':components:support-ktx', project ':components:support-license', project ':components:support-locale', project ':components:support-remotesettings', project ':components:support-test', project ':components:support-test-appservices', project ':components:support-test-fakes', project ':components:support-test-libstate', project ':components:support-utils', project ':components:support-webextensions', project ':components:tooling-detekt', project ':components:tooling-fetch-tests', project ':components:tooling-lint', project ':components:ui-autocomplete', project ':components:ui-colors', project ':components:ui-fonts', project ':components:ui-icons', project ':components:ui-richtext', project ':components:ui-tabcounter', project ':components:ui-widgets']
+
+> Configure project :config
+Evaluating project ':config' using build file '/home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/config/build.gradle'.
+Resolved plugin [id: 'com.autonomousapps.dependency-analysis', version: '3.5.1']
+Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '6.4.1']
+AGP not on classpath; assuming non-Android project
+Build dfd0dd01-a568-4255-a4b6-8cf511112904 is started
+Using Kotlin Gradle Plugin gradle813 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+file or directory '/home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/config/src/main/kotlin', not found
+(dependency analysis) : was already configured for the java-library plugin
+
+> Configure project :apksize
+Evaluating project ':apksize' using build file '/home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/apksize/build.gradle'.
+Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '6.4.1']
+Build 60a37a88-17f3-4ebf-ab6d-ece8394ef122 is started
+Using Kotlin Gradle Plugin gradle813 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+file or directory '/home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/apksize/src/main/kotlin', not found
+
+> Configure project :nimbus-gradle-plugin
+Evaluating project ':nimbus-gradle-plugin' using build file '/home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/nimbus-gradle-plugin/build.gradle'.
+Resolved plugin [id: 'groovy']
+Resolved plugin [id: 'maven-publish']
+Resolved plugin [id: 'groovy-gradle-plugin']
+file or directory '/home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/nimbus-gradle-plugin/src/main/resources', not found
+file or directory '/home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/nimbus-gradle-plugin/src/main/java', not found
+
+> Configure project :gradle-python-envs
+Evaluating project ':gradle-python-envs' using build file '/home/apobennol/Masaüstü/zen-Android/zen-android-src/plugins/gradle-python-envs/build.gradle'.
+Resolved plugin [id: 'groovy']
+Resolved plugin [id: 'maven-publish']
+Resolved plugin [id: 'java-gradle-plugin']
+
+> Configure project :
+Evaluating root project 'zen-android-src' using build file '/home/apobennol/Masaüstü/zen-Android/zen-android-src/build.gradle'.
+Resolved plugin [id: 'mozac.ConfigPlugin']
+Resolved plugin [id: 'com.autonomousapps.dependency-analysis', version: '3.5.1']
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/io/gitlab/arturbosch/detekt/io.gitlab.arturbosch.detekt.gradle.plugin/1.23.8/io.gitlab.arturbosch.detekt.gradle.plugin-1.23.8.pom]
+Found locally available resource with matching checksum: [https://plugins.gradle.org/m2/io/gitlab/arturbosch/detekt/io.gitlab.arturbosch.detekt.gradle.plugin/1.23.8/io.gitlab.arturbosch.detekt.gradle.plugin-1.23.8.pom, /home/apobennol/.gradle/caches/modules-2/files-2.1/io.gitlab.arturbosch.detekt/io.gitlab.arturbosch.detekt.gradle.plugin/1.23.8/e4f1ddb24c7d9a5d46a9284ecb7c9a323f225ec6/io.gitlab.arturbosch.detekt.gradle.plugin-1.23.8.pom]
+Resource missing. [HTTP HEAD: https://plugins.gradle.org/m2/io/gitlab/arturbosch/detekt/io.gitlab.arturbosch.detekt.gradle.plugin/1.23.8/io.gitlab.arturbosch.detekt.gradle.plugin-1.23.8.jar]
+Resolved plugin [id: 'io.gitlab.arturbosch.detekt', version: '1.23.8']
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/android/org.jetbrains.kotlin.android.gradle.plugin/2.3.10/org.jetbrains.kotlin.android.gradle.plugin-2.3.10.pom]
+Found locally available resource with matching checksum: [https://plugins.gradle.org/m2/org/jetbrains/kotlin/android/org.jetbrains.kotlin.android.gradle.plugin/2.3.10/org.jetbrains.kotlin.android.gradle.plugin-2.3.10.pom, /home/apobennol/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin.android/org.jetbrains.kotlin.android.gradle.plugin/2.3.10/e9dec2f958959b1c18105d5e219cafdc0d5200a1/org.jetbrains.kotlin.android.gradle.plugin-2.3.10.pom]
+Resource missing. [HTTP HEAD: https://plugins.gradle.org/m2/org/jetbrains/kotlin/android/org.jetbrains.kotlin.android.gradle.plugin/2.3.10/org.jetbrains.kotlin.android.gradle.plugin-2.3.10.jar]
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.3.10', apply: false]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/plugin/compose/org.jetbrains.kotlin.plugin.compose.gradle.plugin/2.3.10/org.jetbrains.kotlin.plugin.compose.gradle.plugin-2.3.10.pom]
+Found locally available resource with matching checksum: [https://plugins.gradle.org/m2/org/jetbrains/kotlin/plugin/compose/org.jetbrains.kotlin.plugin.compose.gradle.plugin/2.3.10/org.jetbrains.kotlin.plugin.compose.gradle.plugin-2.3.10.pom, /home/apobennol/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin.plugin.compose/org.jetbrains.kotlin.plugin.compose.gradle.plugin/2.3.10/1f30482d8a395064a889fa984e0b397491b368a1/org.jetbrains.kotlin.plugin.compose.gradle.plugin-2.3.10.pom]
+Resource missing. [HTTP HEAD: https://plugins.gradle.org/m2/org/jetbrains/kotlin/plugin/compose/org.jetbrains.kotlin.plugin.compose.gradle.plugin/2.3.10/org.jetbrains.kotlin.plugin.compose.gradle.plugin-2.3.10.jar]
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose', version: '2.3.10', apply: false]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/devtools/ksp/com.google.devtools.ksp.gradle.plugin/2.3.6/com.google.devtools.ksp.gradle.plugin-2.3.6.pom]
+Cached resource https://plugins.gradle.org/m2/com/google/devtools/ksp/com.google.devtools.ksp.gradle.plugin/2.3.6/com.google.devtools.ksp.gradle.plugin-2.3.6.pom is up-to-date (lastModified: Tue Feb 17 23:49:00 TRT 2026).
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/google/devtools/ksp/com.google.devtools.ksp.gradle.plugin/2.3.6/com.google.devtools.ksp.gradle.plugin-2.3.6.jar]
+Resolved plugin [id: 'com.google.devtools.ksp', version: '2.3.6']
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/androidx/navigation/navigation-safe-args-gradle-plugin/2.9.7/navigation-safe-args-gradle-plugin-2.9.7.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/build/gradle/8.13.2/gradle-8.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/android/gms/oss-licenses-plugin/0.10.10/oss-licenses-plugin-0.10.10.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/androidx/benchmark/benchmark-gradle-plugin/1.4.1/benchmark-gradle-plugin-1.4.1.pom]
+Cached resource https://maven.mozilla.org/maven2/org/mozilla/telemetry/glean-gradle-plugin/67.0.0/glean-gradle-plugin-67.0.0.pom is up-to-date (lastModified: Wed Jan 21 14:51:19 TRT 2026).
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/androidx/navigation/navigation-safe-args-gradle-plugin/2.9.7/navigation-safe-args-gradle-plugin-2.9.7.pom]
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/build/gradle/8.13.2/gradle-8.13.2.pom]
+Resource missing. [HTTP GET: https://maven.mozilla.org/maven2/org/mozilla/telemetry/glean-gradle-plugin/67.0.0/glean-gradle-plugin-67.0.0.module]
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/google/android/gms/oss-licenses-plugin/0.10.10/oss-licenses-plugin-0.10.10.pom]
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/androidx/benchmark/benchmark-gradle-plugin/1.4.1/benchmark-gradle-plugin-1.4.1.pom]
+Cached resource https://maven.google.com/androidx/navigation/navigation-safe-args-gradle-plugin/2.9.7/navigation-safe-args-gradle-plugin-2.9.7.pom is up-to-date (lastModified: Thu Jan 29 03:16:50 TRT 2026).
+Cached resource https://maven.google.com/com/android/tools/build/gradle/8.13.2/gradle-8.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Cached resource https://maven.google.com/com/google/android/gms/oss-licenses-plugin/0.10.10/oss-licenses-plugin-0.10.10.pom is up-to-date (lastModified: Thu Dec 11 22:53:21 TRT 2025).
+Cached resource https://maven.google.com/androidx/benchmark/benchmark-gradle-plugin/1.4.1/benchmark-gradle-plugin-1.4.1.pom is up-to-date (lastModified: Wed Sep 10 20:00:23 TRT 2025).
+Cached resource https://maven.google.com/androidx/navigation/navigation-safe-args-gradle-plugin/2.9.7/navigation-safe-args-gradle-plugin-2.9.7.module is up-to-date (lastModified: Thu Jan 29 03:16:50 TRT 2026).
+Cached resource https://maven.google.com/com/android/tools/build/gradle/8.13.2/gradle-8.13.2.module is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Cached resource https://maven.google.com/com/google/android/gms/oss-licenses-plugin/0.10.10/oss-licenses-plugin-0.10.10.module is up-to-date (lastModified: Thu Dec 11 22:53:21 TRT 2025).
+Cached resource https://maven.google.com/androidx/benchmark/benchmark-gradle-plugin/1.4.1/benchmark-gradle-plugin-1.4.1.module is up-to-date (lastModified: Wed Sep 10 20:00:23 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/build/aaptcompiler/8.13.2/aaptcompiler-8.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/sdk-common/31.13.2/sdk-common-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/repository/31.13.2/repository-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/build/gradle-settings-api/8.13.2/gradle-settings-api-8.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/sdklib/31.13.2/sdklib-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/ddms/ddmlib/31.13.2/ddmlib-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/analytics-library/shared/31.13.2/shared-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/lint/lint-typedef-remover/31.13.2/lint-typedef-remover-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/build/aapt2-proto/8.13.2-14304508/aapt2-proto-8.13.2-14304508.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/analytics-library/crash/31.13.2/crash-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/androidx/databinding/databinding-compiler-common/8.13.2/databinding-compiler-common-8.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/lint/lint-model/31.13.2/lint-model-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/build/gradle-settings-api/8.13.2/gradle-settings-api-8.13.2.pom]
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/sdk-common/31.13.2/sdk-common-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/repository/31.13.2/repository-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/sdklib/31.13.2/sdklib-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/ddms/ddmlib/31.13.2/ddmlib-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/analytics-library/shared/31.13.2/shared-31.13.2.pom]
+Cached resource https://maven.google.com/com/android/tools/sdk-common/31.13.2/sdk-common-31.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/lint/lint-model/31.13.2/lint-model-31.13.2.pom]
+Cached resource https://maven.google.com/com/android/tools/build/gradle-settings-api/8.13.2/gradle-settings-api-8.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/androidx/databinding/databinding-compiler-common/8.13.2/databinding-compiler-common-8.13.2.pom]
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/build/aapt2-proto/8.13.2-14304508/aapt2-proto-8.13.2-14304508.pom]
+Cached resource https://maven.google.com/com/android/tools/sdklib/31.13.2/sdklib-31.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/analytics-library/crash/31.13.2/crash-31.13.2.pom]
+Cached resource https://maven.google.com/com/android/tools/ddms/ddmlib/31.13.2/ddmlib-31.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Cached resource https://maven.google.com/com/android/tools/repository/31.13.2/repository-31.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Cached resource https://maven.google.com/com/android/tools/lint/lint-model/31.13.2/lint-model-31.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Cached resource https://maven.google.com/com/android/tools/build/gradle-settings-api/8.13.2/gradle-settings-api-8.13.2.module is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/build/aaptcompiler/8.13.2/aaptcompiler-8.13.2.pom]
+Cached resource https://maven.google.com/com/android/tools/analytics-library/shared/31.13.2/shared-31.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Cached resource https://maven.google.com/androidx/databinding/databinding-compiler-common/8.13.2/databinding-compiler-common-8.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Cached resource https://maven.google.com/com/android/tools/build/aapt2-proto/8.13.2-14304508/aapt2-proto-8.13.2-14304508.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/androidx/databinding/databinding-common/8.13.2/databinding-common-8.13.2.pom]
+Cached resource https://maven.google.com/com/android/tools/analytics-library/crash/31.13.2/crash-31.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Cached resource https://maven.google.com/com/android/tools/build/aaptcompiler/8.13.2/aaptcompiler-8.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/lint/lint-typedef-remover/31.13.2/lint-typedef-remover-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/databinding/baseLibrary/8.13.2/baseLibrary-8.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/build/builder-test-api/8.13.2/builder-test-api-8.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/utp/android-device-provider-ddmlib-proto/31.13.2/android-device-provider-ddmlib-proto-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/androidx/databinding/databinding-common/8.13.2/databinding-common-8.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/layoutlib/layoutlib-api/31.13.2/layoutlib-api-31.13.2.pom]
+Cached resource https://maven.google.com/com/android/tools/build/aapt2-proto/8.13.2-14304508/aapt2-proto-8.13.2-14304508.module is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Cached resource https://maven.google.com/com/android/tools/build/aaptcompiler/8.13.2/aaptcompiler-8.13.2.module is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/utp/android-device-provider-profile-proto/31.13.2/android-device-provider-profile-proto-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/utp/android-test-plugin-host-additional-test-output-proto/31.13.2/android-test-plugin-host-additional-test-output-proto-31.13.2.pom]
+Cached resource https://maven.google.com/androidx/databinding/databinding-common/8.13.2/databinding-common-8.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/build/builder-test-api/8.13.2/builder-test-api-8.13.2.pom]
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/databinding/baseLibrary/8.13.2/baseLibrary-8.13.2.pom]
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/layoutlib/layoutlib-api/31.13.2/layoutlib-api-31.13.2.pom]
+Cached resource https://maven.google.com/com/android/tools/lint/lint-typedef-remover/31.13.2/lint-typedef-remover-31.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/utp/android-test-plugin-host-coverage-proto/31.13.2/android-test-plugin-host-coverage-proto-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/utp/android-test-plugin-host-emulator-control-proto/31.13.2/android-test-plugin-host-emulator-control-proto-31.13.2.pom]
+Cached resource https://maven.google.com/com/android/tools/build/builder-test-api/8.13.2/builder-test-api-8.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/utp/android-test-plugin-host-additional-test-output-proto/31.13.2/android-test-plugin-host-additional-test-output-proto-31.13.2.pom]
+Cached resource https://maven.google.com/com/android/databinding/baseLibrary/8.13.2/baseLibrary-8.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Cached resource https://maven.google.com/com/android/tools/layoutlib/layoutlib-api/31.13.2/layoutlib-api-31.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/utp/android-test-plugin-host-logcat-proto/31.13.2/android-test-plugin-host-logcat-proto-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/utp/android-test-plugin-host-apk-installer-proto/31.13.2/android-test-plugin-host-apk-installer-proto-31.13.2.pom]
+Cached resource https://maven.google.com/com/android/tools/utp/android-test-plugin-host-additional-test-output-proto/31.13.2/android-test-plugin-host-additional-test-output-proto-31.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/utp/android-device-provider-profile-proto/31.13.2/android-device-provider-profile-proto-31.13.2.pom]
+Cached resource https://maven.google.com/com/android/tools/build/builder-test-api/8.13.2/builder-test-api-8.13.2.module is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/utp/android-device-provider-ddmlib-proto/31.13.2/android-device-provider-ddmlib-proto-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/utp/android-test-plugin-result-listener-gradle-proto/31.13.2/android-test-plugin-result-listener-gradle-proto-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.0/kotlin-stdlib-2.2.0.pom]
+Cached resource https://maven.google.com/com/android/tools/utp/android-device-provider-profile-proto/31.13.2/android-device-provider-profile-proto-31.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/utp/android-test-plugin-host-apk-installer-proto/31.13.2/android-test-plugin-host-apk-installer-proto-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/utp/android-test-plugin-host-logcat-proto/31.13.2/android-test-plugin-host-logcat-proto-31.13.2.pom]
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/utp/android-test-plugin-host-emulator-control-proto/31.13.2/android-test-plugin-host-emulator-control-proto-31.13.2.pom]
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.2.0/kotlin-stdlib-2.2.0.pom is up-to-date (lastModified: Mon Jun 23 09:17:20 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/apache/httpcomponents/httpmime/4.5.6/httpmime-4.5.6.pom]
+Cached resource https://maven.google.com/com/android/tools/utp/android-device-provider-ddmlib-proto/31.13.2/android-device-provider-ddmlib-proto-31.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/utp/android-test-plugin-host-coverage-proto/31.13.2/android-test-plugin-host-coverage-proto-31.13.2.pom]
+Cached resource https://maven.google.com/com/android/tools/utp/android-test-plugin-host-apk-installer-proto/31.13.2/android-test-plugin-host-apk-installer-proto-31.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.pom is up-to-date (lastModified: Thu Apr 07 20:20:41 TRST 2016).
+Cached resource https://plugins.gradle.org/m2/org/apache/httpcomponents/httpmime/4.5.6/httpmime-4.5.6.pom is up-to-date (lastModified: Thu Jul 05 14:43:07 TRT 2018).
+Cached resource https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.2.0/kotlin-stdlib-2.2.0.module is up-to-date (lastModified: Mon Jun 23 09:17:20 TRT 2025).
+Cached resource https://maven.google.com/com/android/tools/utp/android-test-plugin-host-emulator-control-proto/31.13.2/android-test-plugin-host-emulator-control-proto-31.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Cached resource https://maven.google.com/com/android/tools/utp/android-test-plugin-host-logcat-proto/31.13.2/android-test-plugin-host-logcat-proto-31.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.pom]
+Cached resource https://maven.google.com/com/android/tools/utp/android-test-plugin-host-coverage-proto/31.13.2/android-test-plugin-host-coverage-proto-31.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/ow2/asm/asm/9.8/asm-9.8.pom]
+Cached resource https://plugins.gradle.org/m2/commons-io/commons-io/2.16.1/commons-io-2.16.1.pom is up-to-date (lastModified: Fri Apr 05 04:25:32 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.pom]
+Cached resource https://plugins.gradle.org/m2/org/ow2/asm/asm/9.8/asm-9.8.pom is up-to-date (lastModified: Sat Mar 29 18:13:19 TRT 2025).
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/utp/android-test-plugin-result-listener-gradle-proto/31.13.2/android-test-plugin-result-listener-gradle-proto-31.13.2.pom]
+Cached resource https://plugins.gradle.org/m2/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.pom is up-to-date (lastModified: Sat Mar 29 18:13:22 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/ow2/asm/asm-util/9.8/asm-util-9.8.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.6/httpcomponents-client-4.5.6.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.79/bcpkix-jdk18on-1.79.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.pom]
+Cached resource https://plugins.gradle.org/m2/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.pom is up-to-date (lastModified: Sat Mar 29 18:13:25 TRT 2025).
+Cached resource https://maven.google.com/com/android/tools/utp/android-test-plugin-result-listener-gradle-proto/31.13.2/android-test-plugin-result-listener-gradle-proto-31.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/build/bundletool/1.18.1/bundletool-1.18.1.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/build/jetifier/jetifier-core/1.0.0-beta10/jetifier-core-1.0.0-beta10.pom]
+Cached resource https://plugins.gradle.org/m2/org/ow2/asm/asm-util/9.8/asm-util-9.8.pom is up-to-date (lastModified: Sat Mar 29 18:13:32 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/apache/httpcomponents/httpcomponents-client/4.5.6/httpcomponents-client-4.5.6.pom is up-to-date (lastModified: Thu Jul 05 14:41:19 TRT 2018).
+Cached resource https://plugins.gradle.org/m2/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.pom is up-to-date (lastModified: Sat Jun 27 21:48:07 TRST 2015).
+Cached resource https://plugins.gradle.org/m2/org/bouncycastle/bcpkix-jdk18on/1.79/bcpkix-jdk18on-1.79.pom is up-to-date (lastModified: Wed Oct 30 05:04:11 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.pom is up-to-date (lastModified: Wed Jan 02 18:32:23 TRT 2019).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/apache/commons/commons-parent/69/commons-parent-69.pom]
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/build/jetifier/jetifier-core/1.0.0-beta10/jetifier-core-1.0.0-beta10.pom]
+Cached resource https://plugins.gradle.org/m2/org/apache/commons/commons-parent/69/commons-parent-69.pom is up-to-date (lastModified: Fri Mar 29 16:01:01 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/ow2/ow2/1.5.1/ow2-1.5.1.pom]
+Cached resource https://maven.google.com/com/android/tools/build/jetifier/jetifier-core/1.0.0-beta10/jetifier-core-1.0.0-beta10.pom is up-to-date (lastModified: Wed Sep 02 20:00:00 TRT 2020).
+Cached resource https://plugins.gradle.org/m2/org/ow2/ow2/1.5.1/ow2-1.5.1.pom is up-to-date (lastModified: Fri Apr 09 13:28:51 TRT 2021).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/2.3.2/jaxb-runtime-parent-2.3.2.pom]
+Cached resource https://maven.google.com/com/android/tools/build/jetifier/jetifier-core/1.0.0-beta10/jetifier-core-1.0.0-beta10.module is up-to-date (lastModified: Wed Sep 02 20:00:00 TRT 2020).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/build/jetifier/jetifier-processor/1.0.0-beta10/jetifier-processor-1.0.0-beta10.pom]
+Cached resource https://plugins.gradle.org/m2/com/sun/xml/bind/mvn/jaxb-runtime-parent/2.3.2/jaxb-runtime-parent-2.3.2.pom is up-to-date (lastModified: Wed Jan 02 18:34:13 TRT 2019).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/apache/httpcomponents/httpcomponents-parent/10/httpcomponents-parent-10.pom]
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/build/jetifier/jetifier-processor/1.0.0-beta10/jetifier-processor-1.0.0-beta10.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/squareup/javapoet/1.10.0/javapoet-1.10.0.pom]
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/build/bundletool/1.18.1/bundletool-1.18.1.pom]
+Cached resource https://plugins.gradle.org/m2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom is up-to-date (lastModified: Mon Mar 07 14:42:48 TRT 2011).
+Cached resource https://maven.google.com/com/android/tools/build/jetifier/jetifier-processor/1.0.0-beta10/jetifier-processor-1.0.0-beta10.pom is up-to-date (lastModified: Wed Sep 02 20:00:00 TRT 2020).
+Cached resource https://plugins.gradle.org/m2/com/squareup/javapoet/1.10.0/javapoet-1.10.0.pom is up-to-date (lastModified: Sat Jan 27 07:33:20 TRT 2018).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/apache/apache/31/apache-31.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/protobuf/protobuf-java/3.25.5/protobuf-java-3.25.5.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/protobuf/protobuf-java-util/3.25.5/protobuf-java-util-3.25.5.pom]
+Cached resource https://maven.google.com/com/android/tools/build/bundletool/1.18.1/bundletool-1.18.1.pom is up-to-date (lastModified: Wed Mar 05 18:29:56 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/org/apache/apache/31/apache-31.pom is up-to-date (lastModified: Thu Nov 09 01:14:57 TRT 2023).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/io/grpc/grpc-netty/1.69.1/grpc-netty-1.69.1.pom]
+Cached resource https://plugins.gradle.org/m2/org/apache/httpcomponents/httpcomponents-parent/10/httpcomponents-parent-10.pom is up-to-date (lastModified: Fri Oct 27 19:10:16 TRT 2017).
+Cached resource https://maven.google.com/com/android/tools/build/jetifier/jetifier-processor/1.0.0-beta10/jetifier-processor-1.0.0-beta10.module is up-to-date (lastModified: Wed Sep 02 20:00:00 TRT 2020).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/io/grpc/grpc-core/1.69.1/grpc-core-1.69.1.pom]
+Cached resource https://plugins.gradle.org/m2/com/google/protobuf/protobuf-java/3.25.5/protobuf-java-3.25.5.pom is up-to-date (lastModified: Thu Sep 19 01:48:19 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/google/protobuf/protobuf-java-util/3.25.5/protobuf-java-util-3.25.5.pom is up-to-date (lastModified: Thu Sep 19 01:48:27 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/io/grpc/grpc-protobuf/1.69.1/grpc-protobuf-1.69.1.pom]
+Cached resource https://plugins.gradle.org/m2/io/grpc/grpc-netty/1.69.1/grpc-netty-1.69.1.pom is up-to-date (lastModified: Fri Jan 17 00:10:11 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/io/grpc/grpc-core/1.69.1/grpc-core-1.69.1.pom is up-to-date (lastModified: Fri Jan 17 00:07:45 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/io/grpc/grpc-protobuf/1.69.1/grpc-protobuf-1.69.1.pom is up-to-date (lastModified: Fri Jan 17 00:07:15 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/2.3.2/jaxb-parent-2.3.2.pom]
+Cached resource https://plugins.gradle.org/m2/com/sun/xml/bind/mvn/jaxb-parent/2.3.2/jaxb-parent-2.3.2.pom is up-to-date (lastModified: Wed Jan 02 18:34:07 TRT 2019).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/io/grpc/grpc-stub/1.69.1/grpc-stub-1.69.1.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/io/grpc/grpc-inprocess/1.69.1/grpc-inprocess-1.69.1.pom]
+Cached resource https://plugins.gradle.org/m2/io/grpc/grpc-stub/1.69.1/grpc-stub-1.69.1.pom is up-to-date (lastModified: Fri Jan 17 00:08:00 TRT 2025).
+Cached resource https://plugins.gradle.org/m2/io/grpc/grpc-inprocess/1.69.1/grpc-inprocess-1.69.1.pom is up-to-date (lastModified: Fri Jan 17 00:08:14 TRT 2025).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/crypto/tink/tink/1.7.0/tink-1.7.0.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/junit/junit-bom/5.10.2/junit-bom-5.10.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/apache/apache/18/apache-18.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/testing/platform/core-proto/0.0.9-alpha03/core-proto-0.0.9-alpha03.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/protobuf/protobuf-parent/3.25.5/protobuf-parent-3.25.5.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/flatbuffers/flatbuffers-java/1.12.0/flatbuffers-java-1.12.0.pom]
+Cached resource https://plugins.gradle.org/m2/org/apache/apache/18/apache-18.pom is up-to-date (lastModified: Sun May 15 23:52:10 TRST 2016).
+Cached resource https://plugins.gradle.org/m2/com/google/crypto/tink/tink/1.7.0/tink-1.7.0.pom is up-to-date (lastModified: Wed Aug 10 05:12:41 TRT 2022).
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/google/testing/platform/core-proto/0.0.9-alpha03/core-proto-0.0.9-alpha03.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/org/tensorflow/tensorflow-lite-metadata/0.2.0/tensorflow-lite-metadata-0.2.0.pom]
+Cached resource https://plugins.gradle.org/m2/org/junit/junit-bom/5.10.2/junit-bom-5.10.2.pom is up-to-date (lastModified: Sun Feb 04 11:35:24 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/com/google/flatbuffers/flatbuffers-java/1.12.0/flatbuffers-java-1.12.0.pom is up-to-date (lastModified: Fri Mar 13 02:09:15 TRT 2020).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/build/builder/8.13.2/builder-8.13.2.pom]
+Cached resource https://plugins.gradle.org/m2/com/google/protobuf/protobuf-parent/3.25.5/protobuf-parent-3.25.5.pom is up-to-date (lastModified: Thu Sep 19 01:48:07 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/org/tensorflow/tensorflow-lite-metadata/0.2.0/tensorflow-lite-metadata-0.2.0.pom is up-to-date (lastModified: Tue May 18 03:49:32 TRT 2021).
+Cached resource https://maven.google.com/com/google/testing/platform/core-proto/0.0.9-alpha03/core-proto-0.0.9-alpha03.pom is up-to-date (lastModified: Tue Dec 17 00:06:48 TRT 2024).
+Cached resource https://plugins.gradle.org/m2/org/junit/junit-bom/5.10.2/junit-bom-5.10.2.module is up-to-date (lastModified: Sun Feb 04 11:35:25 TRT 2024).
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/sun/xml/bind/jaxb-bom-ext/2.3.2/jaxb-bom-ext-2.3.2.pom]
+Cached resource https://plugins.gradle.org/m2/com/sun/xml/bind/jaxb-bom-ext/2.3.2/jaxb-bom-ext-2.3.2.pom is up-to-date (lastModified: Wed Jan 02 18:34:06 TRT 2019).
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/build/builder/8.13.2/builder-8.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/build/builder-model/8.13.2/builder-model-8.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/android/tools/build/gradle-api/8.13.2/gradle-api-8.13.2.pom]
+Cached resource https://maven.google.com/com/android/tools/build/builder/8.13.2/builder-8.13.2.pom is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+Resource missing. [HTTP HEAD: https://repo.maven.apache.org/maven2/com/android/tools/build/gradle-api/8.13.2/gradle-api-8.13.2.pom]
+Resource missing. [HTTP HEAD: https://maven.mozilla.org/maven2/com/google/protobuf/protobuf-bom/3.25.5/protobuf-bom-3.25.5.pom]
+Cached resource https://maven.google.com/com/android/tools/build/builder/8.13.2/builder-8.13.2.module is up-to-date (lastModified: Thu Dec 11 08:28:08 TRT 2025).
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Gradle build daemon has been stopped: stop command received
+
+* Try:
+> Run with --debug option to get more log output.
+> Run with --scan to generate a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.launcher.daemon.server.api.DaemonStoppedException: Gradle build daemon has been stopped: stop command received
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator.waitForCommandCompletion(DaemonStateCoordinator.java:353)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator.runCommand(DaemonStateCoordinator.java:327)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy.doBuild(StartBuildOrRespondWithBusy.java:56)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.ReturnResult.execute(ReturnResult.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.CleanUpVirtualFileSystemAfterBuild.doBuild(CleanUpVirtualFileSystemAfterBuild.java:58)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.api.HandleReportStatus.execute(HandleReportStatus.java:35)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.HandleCancel.execute(HandleCancel.java:39)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.api.HandleInvalidateVirtualFileSystem.execute(HandleInvalidateVirtualFileSystem.java:46)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.api.HandleStop.execute(HandleStop.java:46)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecuter.executeCommand(DaemonCommandExecuter.java:55)
+	at org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler$ConnectionWorker.handleCommand(DefaultIncomingConnectionHandler.java:161)
+	at org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler$ConnectionWorker.receiveAndHandleCommand(DefaultIncomingConnectionHandler.java:134)
+	at org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler$ConnectionWorker.run(DefaultIncomingConnectionHandler.java:122)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+

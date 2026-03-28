@@ -4,7 +4,7 @@
 
 pluginManagement {
     if (!gradle.root.hasProperty("mozconfig")){
-        apply from: file('/home/apobennol/Masaüstü/zen-Android/zen-android-src/gradle/mozconfig.gradle')
+        apply from: file('../gradle/mozconfig.gradle')
     } else {
         gradle.ext.mozconfig = gradle.root.mozconfig
         gradle.ext.configureMavenRepositories = gradle.root.ext.configureMavenRepositories
@@ -14,10 +14,10 @@ pluginManagement {
         gradle.configureMavenRepositories(delegate)
     }
 
-    includeBuild("/home/apobennol/Masaüstü/zen-Android/zen-android-src/gradle/plugins/conventions")
-    includeBuild("/home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/dependencies")
-    includeBuild("/home/apobennol/Masaüstü/zen-Android/zen-android-src/android-components/plugins/publicsuffixlist")
-    includeBuild("/home/apobennol/Masaüstü/zen-Android/zen-android-src/gradle/plugins/nimbus-gradle-plugin")
+    includeBuild("../gradle/plugins/conventions")
+    includeBuild("./plugins/dependencies")
+    includeBuild("./plugins/publicsuffixlist")
+    includeBuild("../gradle/plugins/nimbus-gradle-plugin")
 }
 
 plugins {
@@ -28,12 +28,12 @@ plugins {
 dependencyResolutionManagement {
     versionCatalogs {
         libs {
-            from(files("/home/apobennol/Masaüstü/zen-Android/zen-android-src/gradle/libs.versions.toml"))
+            from(files("../gradle/libs.versions.toml"))
         }
     }
 }
 
-ext.topsrcdir = "/home/apobennol/Masaüstü/zen-Android/zen-android-src"
+ext.topsrcdir = ".."
 
 if (gradle.ext.mozconfig.substs.MOZ_APPSERVICES_IN_TREE) {
     apply from: file("${topsrcdir}/services/app-services/settings.gradle")
