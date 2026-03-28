@@ -41,13 +41,13 @@ jobs:
 
       - name: Rename APK
         run: |
-          mv app/build/outputs/apk/zenDebug/*.apk Zen-Browser-Android-Alpha-v1.0.apk
+          mv app/build/outputs/apk/zenDebug/*.apk Zen-Browser-v1.0-Alpha.apk
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: Zen-Browser-Android-Alpha-v1.0.apk
+          files: Zen-Browser-v1.0-Alpha.apk
           name: Zen Browser for Android Alpha ${{ github.ref_name }}
           body: |
             ## Zen Browser for Android (Alpha)
