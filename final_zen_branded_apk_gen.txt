@@ -1,0 +1,680 @@
+
+> Configure project :conventions
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.2.20` that might work differently than in the requested version `2.3.10`.
+
+> Task :dependencies:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :conventions:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :conventions:compileKotlin UP-TO-DATE
+> Task :conventions:compileJava NO-SOURCE
+> Task :conventions:pluginDescriptors UP-TO-DATE
+> Task :dependencies:compileKotlin UP-TO-DATE
+> Task :conventions:processResources UP-TO-DATE
+> Task :conventions:classes UP-TO-DATE
+> Task :dependencies:compileJava NO-SOURCE
+> Task :dependencies:pluginDescriptors UP-TO-DATE
+> Task :conventions:jar UP-TO-DATE
+> Task :dependencies:processResources UP-TO-DATE
+> Task :dependencies:classes UP-TO-DATE
+> Task :dependencies:jar UP-TO-DATE
+> Task :config:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :config:compileKotlin UP-TO-DATE
+> Task :config:compileJava NO-SOURCE
+> Task :config:pluginDescriptors UP-TO-DATE
+> Task :config:processResources UP-TO-DATE
+> Task :config:classes UP-TO-DATE
+> Task :config:jar UP-TO-DATE
+> Task :apksize:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :nimbus-gradle-plugin:extractPluginRequests NO-SOURCE
+> Task :nimbus-gradle-plugin:generatePluginAdapters NO-SOURCE
+> Task :nimbus-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-python-envs:compileJava NO-SOURCE
+> Task :apksize:compileKotlin UP-TO-DATE
+> Task :apksize:compileJava NO-SOURCE
+> Task :apksize:pluginDescriptors UP-TO-DATE
+> Task :apksize:processResources UP-TO-DATE
+> Task :apksize:classes UP-TO-DATE
+> Task :apksize:jar UP-TO-DATE
+> Task :nimbus-gradle-plugin:compileGroovy UP-TO-DATE
+> Task :gradle-python-envs:compileGroovy UP-TO-DATE
+> Task :nimbus-gradle-plugin:compileGroovyPlugins NO-SOURCE
+> Task :gradle-python-envs:pluginDescriptors UP-TO-DATE
+> Task :nimbus-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-python-envs:processResources UP-TO-DATE
+> Task :gradle-python-envs:classes UP-TO-DATE
+> Task :nimbus-gradle-plugin:processResources UP-TO-DATE
+> Task :nimbus-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-python-envs:jar UP-TO-DATE
+> Task :nimbus-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :app
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+WARNING: DSL element 'isRenderscriptDebuggable' is obsolete and should be removed.
+It will be removed in version 9.0 of the Android Gradle plugin.
+Requires glean_parser 18.2
+
+> Configure project :components:browser-engine-gecko
+Getting geckoview: geckoview:149.0.20260318190823
+Requires glean_parser 18.2
+
+> Configure project :components:lib-crash
+Requires glean_parser 18.2
+
+> Task :publicsuffixlist:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :publicsuffixlist:compileKotlin UP-TO-DATE
+> Task :publicsuffixlist:compileJava NO-SOURCE
+> Task :publicsuffixlist:pluginDescriptors UP-TO-DATE
+> Task :publicsuffixlist:processResources UP-TO-DATE
+> Task :publicsuffixlist:classes UP-TO-DATE
+> Task :publicsuffixlist:jar UP-TO-DATE
+
+> Configure project :components:service-nimbus
+Requires glean_parser 18.2
+
+> Task :app:createBuildDir UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+
+> Task :app:Bootstrap_CONDA_'Miniconda3'
+Bootstraping to /home/apobennol/.gradle/glean/bootstrap-24.3.0-0/Miniconda3
+PREFIX=/home/apobennol/.gradle/glean/bootstrap-24.3.0-0/Miniconda3
+Unpacking payload ...
+
+Installing base environment...
+
+Preparing transaction: ...working... done
+Executing transaction: ...working... done
+installation finished.
+Installing packages via pip: [glean_parser~=18.2]
+Executing '/home/apobennol/.gradle/glean/bootstrap-24.3.0-0/Miniconda3/bin/pip install --trusted-host pypi.python.org --no-cache-dir glean_parser~=18.2'
+Collecting glean_parser~=18.2
+  Downloading glean_parser-18.2.0-py3-none-any.whl.metadata (3.2 kB)
+Collecting click>=7 (from glean_parser~=18.2)
+  Downloading click-8.3.1-py3-none-any.whl.metadata (2.6 kB)
+Collecting diskcache>=4 (from glean_parser~=18.2)
+  Downloading diskcache-5.6.3-py3-none-any.whl.metadata (20 kB)
+Collecting jinja2>=2.10.1 (from glean_parser~=18.2)
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting jsonschema>=3.0.2 (from glean_parser~=18.2)
+  Downloading jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+Requirement already satisfied: platformdirs>=2.4.0 in /home/apobennol/.gradle/glean/bootstrap-24.3.0-0/Miniconda3/lib/python3.11/site-packages (from glean_parser~=18.2) (3.10.0)
+Collecting pyyaml>=5.3.1 (from glean_parser~=18.2)
+  Downloading pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+Collecting MarkupSafe>=2.0 (from jinja2>=2.10.1->glean_parser~=18.2)
+  Downloading markupsafe-3.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+Collecting attrs>=22.2.0 (from jsonschema>=3.0.2->glean_parser~=18.2)
+  Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=3.0.2->glean_parser~=18.2)
+  Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=3.0.2->glean_parser~=18.2)
+  Downloading referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.25.0 (from jsonschema>=3.0.2->glean_parser~=18.2)
+  Downloading rpds_py-0.30.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+Collecting typing-extensions>=4.4.0 (from referencing>=0.28.4->jsonschema>=3.0.2->glean_parser~=18.2)
+  Downloading typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+Downloading glean_parser-18.2.0-py3-none-any.whl (117 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.5/117.5 kB 1.5 MB/s eta 0:00:00
+Downloading click-8.3.1-py3-none-any.whl (108 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 108.3/108.3 kB 6.7 MB/s eta 0:00:00
+Downloading diskcache-5.6.3-py3-none-any.whl (45 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.5/45.5 kB 5.0 MB/s eta 0:00:00
+Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 4.0 MB/s eta 0:00:00
+Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.6/90.6 kB 4.6 MB/s eta 0:00:00
+Downloading pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (806 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 806.6/806.6 kB 3.4 MB/s eta 0:00:00
+Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.5/67.5 kB 6.2 MB/s eta 0:00:00
+Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Downloading markupsafe-3.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+Downloading rpds_py-0.30.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (390 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 390.8/390.8 kB 4.5 MB/s eta 0:00:00
+Downloading typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.6/44.6 kB 6.5 MB/s eta 0:00:00
+Installing collected packages: typing-extensions, rpds-py, pyyaml, MarkupSafe, diskcache, click, attrs, referencing, jinja2, jsonschema-specifications, jsonschema, glean_parser
+Successfully installed MarkupSafe-3.0.3 attrs-26.1.0 click-8.3.1 diskcache-5.6.3 glean_parser-18.2.0 jinja2-3.1.6 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 pyyaml-6.0.3 referencing-0.37.0 rpds-py-0.30.0 typing-extensions-4.15.0
+
+> Task :app:build_condas
+> Task :app:build_envs
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources
+> Task :components:browser-domains:preBuild UP-TO-DATE
+> Task :components:browser-domains:preDebugBuild UP-TO-DATE
+> Task :components:browser-domains:generateDebugResValues UP-TO-DATE
+> Task :components:browser-domains:generateDebugResources UP-TO-DATE
+> Task :components:browser-domains:packageDebugResources UP-TO-DATE
+> Task :components:browser-engine-gecko:preBuild UP-TO-DATE
+> Task :components:browser-engine-gecko:preDebugBuild UP-TO-DATE
+> Task :components:browser-engine-gecko:generateDebugResValues UP-TO-DATE
+> Task :components:browser-engine-gecko:generateDebugResources UP-TO-DATE
+> Task :components:browser-engine-gecko:packageDebugResources UP-TO-DATE
+> Task :components:browser-errorpages:preBuild UP-TO-DATE
+> Task :components:browser-errorpages:preDebugBuild UP-TO-DATE
+> Task :components:browser-errorpages:generateDebugResValues UP-TO-DATE
+> Task :components:browser-errorpages:generateDebugResources UP-TO-DATE
+> Task :components:browser-errorpages:packageDebugResources UP-TO-DATE
+> Task :components:browser-icons:updateBuiltInExtensionVersion UP-TO-DATE
+> Task :components:browser-icons:preBuild UP-TO-DATE
+> Task :components:browser-icons:preDebugBuild UP-TO-DATE
+> Task :components:browser-icons:generateDebugResValues UP-TO-DATE
+> Task :components:browser-icons:generateDebugResources UP-TO-DATE
+> Task :components:browser-icons:packageDebugResources UP-TO-DATE
+> Task :components:browser-menu:preBuild UP-TO-DATE
+> Task :components:browser-menu:preDebugBuild UP-TO-DATE
+> Task :components:browser-menu:generateDebugResValues UP-TO-DATE
+> Task :components:browser-menu:generateDebugResources UP-TO-DATE
+> Task :components:browser-menu:packageDebugResources UP-TO-DATE
+> Task :components:browser-menu2:preBuild UP-TO-DATE
+> Task :components:browser-menu2:preDebugBuild UP-TO-DATE
+> Task :components:browser-menu2:generateDebugResValues UP-TO-DATE
+> Task :components:browser-menu2:generateDebugResources UP-TO-DATE
+> Task :components:browser-menu2:packageDebugResources UP-TO-DATE
+> Task :components:browser-session-storage:preBuild UP-TO-DATE
+> Task :components:browser-session-storage:preDebugBuild UP-TO-DATE
+> Task :components:browser-session-storage:generateDebugResValues UP-TO-DATE
+> Task :components:browser-session-storage:generateDebugResources UP-TO-DATE
+> Task :components:browser-session-storage:packageDebugResources UP-TO-DATE
+> Task :components:browser-state:preBuild UP-TO-DATE
+> Task :components:browser-state:preDebugBuild UP-TO-DATE
+> Task :components:browser-state:generateDebugResValues UP-TO-DATE
+> Task :components:browser-state:generateDebugResources UP-TO-DATE
+> Task :components:browser-state:packageDebugResources UP-TO-DATE
+> Task :components:browser-storage-sync:preBuild UP-TO-DATE
+> Task :components:browser-storage-sync:preDebugBuild UP-TO-DATE
+> Task :components:browser-storage-sync:generateDebugResValues UP-TO-DATE
+> Task :components:browser-storage-sync:generateDebugResources UP-TO-DATE
+> Task :components:browser-storage-sync:packageDebugResources UP-TO-DATE
+> Task :components:browser-tabstray:preBuild UP-TO-DATE
+> Task :components:browser-tabstray:preDebugBuild UP-TO-DATE
+> Task :components:browser-tabstray:generateDebugResValues UP-TO-DATE
+> Task :components:browser-tabstray:generateDebugResources UP-TO-DATE
+> Task :components:browser-tabstray:packageDebugResources UP-TO-DATE
+> Task :components:browser-thumbnails:preBuild UP-TO-DATE
+> Task :components:browser-thumbnails:preDebugBuild UP-TO-DATE
+> Task :components:browser-thumbnails:generateDebugResValues UP-TO-DATE
+> Task :components:browser-thumbnails:generateDebugResources UP-TO-DATE
+> Task :components:browser-thumbnails:packageDebugResources UP-TO-DATE
+> Task :components:browser-toolbar:preBuild UP-TO-DATE
+> Task :components:browser-toolbar:preDebugBuild UP-TO-DATE
+> Task :components:browser-toolbar:generateDebugResValues UP-TO-DATE
+> Task :components:browser-toolbar:generateDebugResources UP-TO-DATE
+> Task :components:browser-toolbar:packageDebugResources UP-TO-DATE
+> Task :components:compose-awesomebar:preBuild UP-TO-DATE
+> Task :components:compose-awesomebar:preDebugBuild UP-TO-DATE
+> Task :components:compose-awesomebar:generateDebugResValues UP-TO-DATE
+> Task :components:compose-awesomebar:generateDebugResources UP-TO-DATE
+> Task :components:compose-awesomebar:packageDebugResources UP-TO-DATE
+> Task :components:compose-base:preBuild UP-TO-DATE
+> Task :components:compose-base:preDebugBuild UP-TO-DATE
+> Task :components:compose-base:generateDebugResValues UP-TO-DATE
+> Task :components:compose-base:generateDebugResources UP-TO-DATE
+> Task :components:compose-base:packageDebugResources UP-TO-DATE
+> Task :components:compose-browser-toolbar:preBuild UP-TO-DATE
+> Task :components:compose-browser-toolbar:preDebugBuild UP-TO-DATE
+> Task :components:compose-browser-toolbar:generateDebugResValues UP-TO-DATE
+> Task :components:compose-browser-toolbar:generateDebugResources UP-TO-DATE
+> Task :components:compose-browser-toolbar:packageDebugResources UP-TO-DATE
+> Task :components:compose-cfr:preBuild UP-TO-DATE
+> Task :components:compose-cfr:preDebugBuild UP-TO-DATE
+> Task :components:compose-cfr:generateDebugResValues UP-TO-DATE
+> Task :components:compose-cfr:generateDebugResources UP-TO-DATE
+> Task :components:compose-cfr:packageDebugResources UP-TO-DATE
+> Task :components:concept-accelerometer:preBuild UP-TO-DATE
+> Task :components:concept-accelerometer:preDebugBuild UP-TO-DATE
+> Task :components:concept-accelerometer:generateDebugResValues UP-TO-DATE
+> Task :components:concept-accelerometer:generateDebugResources UP-TO-DATE
+> Task :components:concept-accelerometer:packageDebugResources UP-TO-DATE
+> Task :components:concept-awesomebar:preBuild UP-TO-DATE
+> Task :components:concept-awesomebar:preDebugBuild UP-TO-DATE
+> Task :components:concept-awesomebar:generateDebugResValues UP-TO-DATE
+> Task :components:concept-awesomebar:generateDebugResources UP-TO-DATE
+> Task :components:concept-awesomebar:packageDebugResources UP-TO-DATE
+> Task :components:concept-base:preBuild UP-TO-DATE
+> Task :components:concept-base:preDebugBuild UP-TO-DATE
+> Task :components:concept-base:generateDebugResValues UP-TO-DATE
+> Task :components:concept-base:generateDebugResources UP-TO-DATE
+> Task :components:concept-base:packageDebugResources UP-TO-DATE
+> Task :components:concept-engine:preBuild UP-TO-DATE
+> Task :components:concept-engine:preDebugBuild UP-TO-DATE
+> Task :components:concept-engine:generateDebugResValues UP-TO-DATE
+> Task :components:concept-engine:generateDebugResources UP-TO-DATE
+> Task :components:concept-engine:packageDebugResources UP-TO-DATE
+> Task :components:concept-fetch:preBuild UP-TO-DATE
+> Task :components:concept-fetch:preDebugBuild UP-TO-DATE
+> Task :components:concept-fetch:generateDebugResValues UP-TO-DATE
+> Task :components:concept-fetch:generateDebugResources UP-TO-DATE
+> Task :components:concept-fetch:packageDebugResources UP-TO-DATE
+> Task :components:concept-integrity:preBuild UP-TO-DATE
+> Task :components:concept-integrity:preDebugBuild UP-TO-DATE
+> Task :components:concept-integrity:generateDebugResValues UP-TO-DATE
+> Task :components:concept-integrity:generateDebugResources UP-TO-DATE
+> Task :components:concept-integrity:packageDebugResources UP-TO-DATE
+> Task :components:concept-llm:preBuild UP-TO-DATE
+> Task :components:concept-llm:preDebugBuild UP-TO-DATE
+> Task :components:concept-llm:generateDebugResValues UP-TO-DATE
+> Task :components:concept-llm:generateDebugResources UP-TO-DATE
+> Task :components:concept-llm:packageDebugResources UP-TO-DATE
+> Task :components:concept-menu:preBuild UP-TO-DATE
+> Task :components:concept-menu:preDebugBuild UP-TO-DATE
+> Task :components:concept-menu:generateDebugResValues UP-TO-DATE
+> Task :components:concept-menu:generateDebugResources UP-TO-DATE
+> Task :components:concept-menu:packageDebugResources UP-TO-DATE
+> Task :components:concept-push:preBuild UP-TO-DATE
+> Task :components:concept-push:preDebugBuild UP-TO-DATE
+> Task :components:concept-push:generateDebugResValues UP-TO-DATE
+> Task :components:concept-push:generateDebugResources UP-TO-DATE
+> Task :components:concept-push:packageDebugResources UP-TO-DATE
+> Task :components:concept-storage:preBuild UP-TO-DATE
+> Task :components:concept-storage:preDebugBuild UP-TO-DATE
+> Task :components:concept-storage:generateDebugResValues UP-TO-DATE
+> Task :components:concept-storage:generateDebugResources UP-TO-DATE
+> Task :components:concept-storage:packageDebugResources UP-TO-DATE
+> Task :components:concept-sync:preBuild UP-TO-DATE
+> Task :components:concept-sync:preDebugBuild UP-TO-DATE
+> Task :components:concept-sync:generateDebugResValues UP-TO-DATE
+> Task :components:concept-sync:generateDebugResources UP-TO-DATE
+> Task :components:concept-sync:packageDebugResources UP-TO-DATE
+> Task :components:concept-tabstray:preBuild UP-TO-DATE
+> Task :components:concept-tabstray:preDebugBuild UP-TO-DATE
+> Task :components:concept-tabstray:generateDebugResValues UP-TO-DATE
+> Task :components:concept-tabstray:generateDebugResources UP-TO-DATE
+> Task :components:concept-tabstray:packageDebugResources UP-TO-DATE
+> Task :components:concept-toolbar:preBuild UP-TO-DATE
+> Task :components:concept-toolbar:preDebugBuild UP-TO-DATE
+> Task :components:concept-toolbar:generateDebugResValues UP-TO-DATE
+> Task :components:concept-toolbar:generateDebugResources UP-TO-DATE
+> Task :components:concept-toolbar:packageDebugResources UP-TO-DATE
+> Task :components:feature-accounts:updateBuiltInExtensionVersion UP-TO-DATE
+> Task :components:feature-accounts:preBuild UP-TO-DATE
+> Task :components:feature-accounts:preDebugBuild UP-TO-DATE
+> Task :components:feature-accounts:generateDebugResValues UP-TO-DATE
+> Task :components:feature-accounts:generateDebugResources UP-TO-DATE
+> Task :components:feature-accounts:packageDebugResources UP-TO-DATE
+> Task :components:feature-accounts-push:preBuild UP-TO-DATE
+> Task :components:feature-accounts-push:preDebugBuild UP-TO-DATE
+> Task :components:feature-accounts-push:generateDebugResValues UP-TO-DATE
+> Task :components:feature-accounts-push:generateDebugResources UP-TO-DATE
+> Task :components:feature-accounts-push:packageDebugResources UP-TO-DATE
+> Task :components:feature-addons:preBuild UP-TO-DATE
+> Task :components:feature-addons:preDebugBuild UP-TO-DATE
+> Task :components:feature-addons:generateDebugResValues UP-TO-DATE
+> Task :components:feature-addons:generateDebugResources UP-TO-DATE
+> Task :components:feature-addons:packageDebugResources UP-TO-DATE
+> Task :components:feature-app-links:preBuild UP-TO-DATE
+> Task :components:feature-app-links:preDebugBuild UP-TO-DATE
+> Task :components:feature-app-links:generateDebugResValues UP-TO-DATE
+> Task :components:feature-app-links:generateDebugResources UP-TO-DATE
+> Task :components:feature-app-links:packageDebugResources UP-TO-DATE
+> Task :components:feature-autofill:preBuild UP-TO-DATE
+> Task :components:feature-autofill:preDebugBuild UP-TO-DATE
+> Task :components:feature-autofill:generateDebugResValues UP-TO-DATE
+> Task :components:feature-autofill:generateDebugResources UP-TO-DATE
+> Task :components:feature-autofill:packageDebugResources UP-TO-DATE
+> Task :components:feature-awesomebar:preBuild UP-TO-DATE
+> Task :components:feature-awesomebar:preDebugBuild UP-TO-DATE
+> Task :components:feature-awesomebar:generateDebugResValues UP-TO-DATE
+> Task :components:feature-awesomebar:generateDebugResources UP-TO-DATE
+> Task :components:feature-awesomebar:packageDebugResources UP-TO-DATE
+> Task :components:feature-contextmenu:preBuild UP-TO-DATE
+> Task :components:feature-contextmenu:preDebugBuild UP-TO-DATE
+> Task :components:feature-contextmenu:generateDebugResValues UP-TO-DATE
+> Task :components:feature-contextmenu:generateDebugResources UP-TO-DATE
+> Task :components:feature-contextmenu:packageDebugResources UP-TO-DATE
+> Task :components:feature-customtabs:preBuild UP-TO-DATE
+> Task :components:feature-customtabs:preDebugBuild UP-TO-DATE
+> Task :components:feature-customtabs:generateDebugResValues UP-TO-DATE
+> Task :components:feature-customtabs:generateDebugResources UP-TO-DATE
+> Task :components:feature-customtabs:packageDebugResources UP-TO-DATE
+> Task :components:feature-downloads:preBuild UP-TO-DATE
+> Task :components:feature-downloads:preDebugBuild UP-TO-DATE
+> Task :components:feature-downloads:generateDebugResValues UP-TO-DATE
+> Task :components:feature-downloads:generateDebugResources UP-TO-DATE
+> Task :components:feature-downloads:packageDebugResources UP-TO-DATE
+> Task :components:feature-findinpage:preBuild UP-TO-DATE
+> Task :components:feature-findinpage:preDebugBuild UP-TO-DATE
+> Task :components:feature-findinpage:generateDebugResValues UP-TO-DATE
+> Task :components:feature-findinpage:generateDebugResources UP-TO-DATE
+> Task :components:feature-findinpage:packageDebugResources UP-TO-DATE
+> Task :components:feature-fxsuggest:preBuild UP-TO-DATE
+> Task :components:feature-fxsuggest:preDebugBuild UP-TO-DATE
+> Task :components:feature-fxsuggest:generateDebugResValues UP-TO-DATE
+> Task :components:feature-fxsuggest:generateDebugResources UP-TO-DATE
+> Task :components:feature-fxsuggest:packageDebugResources UP-TO-DATE
+> Task :components:feature-intent:preBuild UP-TO-DATE
+> Task :components:feature-intent:preDebugBuild UP-TO-DATE
+> Task :components:feature-intent:generateDebugResValues UP-TO-DATE
+> Task :components:feature-intent:generateDebugResources UP-TO-DATE
+> Task :components:feature-intent:packageDebugResources UP-TO-DATE
+> Task :components:feature-logins:preBuild UP-TO-DATE
+> Task :components:feature-logins:preDebugBuild UP-TO-DATE
+> Task :components:feature-logins:generateDebugResValues UP-TO-DATE
+> Task :components:feature-logins:generateDebugResources UP-TO-DATE
+> Task :components:feature-logins:packageDebugResources UP-TO-DATE
+> Task :components:feature-media:preBuild UP-TO-DATE
+> Task :components:feature-media:preDebugBuild UP-TO-DATE
+> Task :components:feature-media:generateDebugResValues UP-TO-DATE
+> Task :components:feature-media:generateDebugResources UP-TO-DATE
+> Task :components:feature-media:packageDebugResources UP-TO-DATE
+> Task :components:feature-privatemode:preBuild UP-TO-DATE
+> Task :components:feature-privatemode:preDebugBuild UP-TO-DATE
+> Task :components:feature-privatemode:generateDebugResValues UP-TO-DATE
+> Task :components:feature-privatemode:generateDebugResources UP-TO-DATE
+> Task :components:feature-privatemode:packageDebugResources UP-TO-DATE
+> Task :components:feature-prompts:preBuild UP-TO-DATE
+> Task :components:feature-prompts:preDebugBuild UP-TO-DATE
+> Task :components:feature-prompts:generateDebugResValues UP-TO-DATE
+> Task :components:feature-prompts:generateDebugResources UP-TO-DATE
+> Task :components:feature-prompts:packageDebugResources UP-TO-DATE
+> Task :components:feature-push:preBuild UP-TO-DATE
+> Task :components:feature-push:preDebugBuild UP-TO-DATE
+> Task :components:feature-push:generateDebugResValues UP-TO-DATE
+> Task :components:feature-push:generateDebugResources UP-TO-DATE
+> Task :components:feature-push:packageDebugResources UP-TO-DATE
+> Task :components:feature-pwa:preBuild UP-TO-DATE
+> Task :components:feature-pwa:preDebugBuild UP-TO-DATE
+> Task :components:feature-pwa:generateDebugResValues UP-TO-DATE
+> Task :components:feature-pwa:generateDebugResources UP-TO-DATE
+> Task :components:feature-pwa:packageDebugResources UP-TO-DATE
+> Task :components:feature-qr:preBuild UP-TO-DATE
+> Task :components:feature-qr:preDebugBuild UP-TO-DATE
+> Task :components:feature-qr:generateDebugResValues UP-TO-DATE
+> Task :components:feature-qr:generateDebugResources UP-TO-DATE
+> Task :components:feature-qr:packageDebugResources UP-TO-DATE
+> Task :components:feature-readerview:updateBuiltInExtensionVersion UP-TO-DATE
+> Task :components:feature-readerview:preBuild UP-TO-DATE
+> Task :components:feature-readerview:preDebugBuild UP-TO-DATE
+> Task :components:feature-readerview:generateDebugResValues UP-TO-DATE
+> Task :components:feature-readerview:generateDebugResources UP-TO-DATE
+> Task :components:feature-readerview:packageDebugResources UP-TO-DATE
+> Task :components:feature-recentlyclosed:preBuild UP-TO-DATE
+> Task :components:feature-recentlyclosed:preDebugBuild UP-TO-DATE
+> Task :components:feature-recentlyclosed:generateDebugResValues UP-TO-DATE
+> Task :components:feature-recentlyclosed:generateDebugResources UP-TO-DATE
+> Task :components:feature-recentlyclosed:packageDebugResources UP-TO-DATE
+> Task :components:feature-search:updateAdsExtensionVersion UP-TO-DATE
+> Task :components:feature-search:updateCookiesExtensionVersion UP-TO-DATE
+> Task :components:feature-search:preBuild UP-TO-DATE
+> Task :components:feature-search:preDebugBuild UP-TO-DATE
+> Task :components:feature-search:generateDebugResValues UP-TO-DATE
+> Task :components:feature-search:generateDebugResources UP-TO-DATE
+> Task :components:feature-search:packageDebugResources UP-TO-DATE
+> Task :components:feature-session:preBuild UP-TO-DATE
+> Task :components:feature-session:preDebugBuild UP-TO-DATE
+> Task :components:feature-session:generateDebugResValues UP-TO-DATE
+> Task :components:feature-session:generateDebugResources UP-TO-DATE
+> Task :components:feature-session:packageDebugResources UP-TO-DATE
+> Task :components:feature-share:preBuild UP-TO-DATE
+> Task :components:feature-share:preDebugBuild UP-TO-DATE
+> Task :components:feature-share:generateDebugResValues UP-TO-DATE
+> Task :components:feature-share:generateDebugResources UP-TO-DATE
+> Task :components:feature-share:packageDebugResources UP-TO-DATE
+> Task :components:feature-sitepermissions:preBuild UP-TO-DATE
+> Task :components:feature-sitepermissions:preDebugBuild UP-TO-DATE
+> Task :components:feature-sitepermissions:generateDebugResValues UP-TO-DATE
+> Task :components:feature-sitepermissions:generateDebugResources UP-TO-DATE
+> Task :components:feature-sitepermissions:packageDebugResources UP-TO-DATE
+> Task :components:feature-summarize:preBuild UP-TO-DATE
+> Task :components:feature-summarize:preDebugBuild UP-TO-DATE
+> Task :components:feature-summarize:generateDebugResValues UP-TO-DATE
+> Task :components:feature-summarize:generateDebugResources UP-TO-DATE
+> Task :components:feature-summarize:packageDebugResources UP-TO-DATE
+> Task :components:feature-syncedtabs:preBuild UP-TO-DATE
+> Task :components:feature-syncedtabs:preDebugBuild UP-TO-DATE
+> Task :components:feature-syncedtabs:generateDebugResValues UP-TO-DATE
+> Task :components:feature-syncedtabs:generateDebugResources UP-TO-DATE
+> Task :components:feature-syncedtabs:packageDebugResources UP-TO-DATE
+> Task :components:feature-tab-collections:preBuild UP-TO-DATE
+> Task :components:feature-tab-collections:preDebugBuild UP-TO-DATE
+> Task :components:feature-tab-collections:generateDebugResValues UP-TO-DATE
+> Task :components:feature-tab-collections:generateDebugResources UP-TO-DATE
+> Task :components:feature-tab-collections:packageDebugResources UP-TO-DATE
+> Task :components:feature-tabs:preBuild UP-TO-DATE
+> Task :components:feature-tabs:preDebugBuild UP-TO-DATE
+> Task :components:feature-tabs:generateDebugResValues UP-TO-DATE
+> Task :components:feature-tabs:generateDebugResources UP-TO-DATE
+> Task :components:feature-tabs:packageDebugResources UP-TO-DATE
+> Task :components:feature-toolbar:preBuild UP-TO-DATE
+> Task :components:feature-toolbar:preDebugBuild UP-TO-DATE
+> Task :components:feature-toolbar:generateDebugResValues UP-TO-DATE
+> Task :components:feature-toolbar:generateDebugResources UP-TO-DATE
+> Task :components:feature-toolbar:packageDebugResources UP-TO-DATE
+> Task :components:feature-top-sites:preBuild UP-TO-DATE
+> Task :components:feature-top-sites:preDebugBuild UP-TO-DATE
+> Task :components:feature-top-sites:generateDebugResValues UP-TO-DATE
+> Task :components:feature-top-sites:generateDebugResources UP-TO-DATE
+> Task :components:feature-top-sites:packageDebugResources UP-TO-DATE
+> Task :components:feature-webauthn:preBuild UP-TO-DATE
+> Task :components:feature-webauthn:preDebugBuild UP-TO-DATE
+> Task :components:feature-webauthn:generateDebugResValues UP-TO-DATE
+> Task :components:feature-webauthn:generateDebugResources UP-TO-DATE
+> Task :components:feature-webauthn:packageDebugResources UP-TO-DATE
+> Task :components:feature-webcompat:syncWebcompatExtension NO-SOURCE
+> Task :components:feature-webcompat:preBuild UP-TO-DATE
+> Task :components:feature-webcompat:preDebugBuild UP-TO-DATE
+> Task :components:feature-webcompat:generateDebugResValues UP-TO-DATE
+> Task :components:feature-webcompat:generateDebugResources UP-TO-DATE
+> Task :components:feature-webcompat:packageDebugResources UP-TO-DATE
+> Task :components:feature-webcompat-reporter:preBuild UP-TO-DATE
+> Task :components:feature-webcompat-reporter:preDebugBuild UP-TO-DATE
+> Task :components:feature-webcompat-reporter:generateDebugResValues UP-TO-DATE
+> Task :components:feature-webcompat-reporter:generateDebugResources UP-TO-DATE
+> Task :components:feature-webcompat-reporter:packageDebugResources UP-TO-DATE
+> Task :components:feature-webnotifications:preBuild UP-TO-DATE
+> Task :components:feature-webnotifications:preDebugBuild UP-TO-DATE
+> Task :components:feature-webnotifications:generateDebugResValues UP-TO-DATE
+> Task :components:feature-webnotifications:generateDebugResources UP-TO-DATE
+> Task :components:feature-webnotifications:packageDebugResources UP-TO-DATE
+> Task :components:lib-accelerometer-sensormanager:preBuild UP-TO-DATE
+> Task :components:lib-accelerometer-sensormanager:preDebugBuild UP-TO-DATE
+> Task :components:lib-accelerometer-sensormanager:generateDebugResValues UP-TO-DATE
+> Task :components:lib-accelerometer-sensormanager:generateDebugResources UP-TO-DATE
+> Task :components:lib-accelerometer-sensormanager:packageDebugResources UP-TO-DATE
+> Task :components:lib-crash:preBuild UP-TO-DATE
+> Task :components:lib-crash:preDebugBuild UP-TO-DATE
+> Task :components:lib-crash:generateDebugResValues UP-TO-DATE
+> Task :components:lib-crash:generateDebugResources UP-TO-DATE
+> Task :components:lib-crash:packageDebugResources UP-TO-DATE
+> Task :components:lib-crash-sentry:preBuild UP-TO-DATE
+> Task :components:lib-crash-sentry:preDebugBuild UP-TO-DATE
+> Task :components:lib-crash-sentry:generateDebugResValues UP-TO-DATE
+> Task :components:lib-crash-sentry:generateDebugResources UP-TO-DATE
+> Task :components:lib-crash-sentry:packageDebugResources UP-TO-DATE
+> Task :components:lib-dataprotect:preBuild UP-TO-DATE
+> Task :components:lib-dataprotect:preDebugBuild UP-TO-DATE
+> Task :components:lib-dataprotect:generateDebugResValues UP-TO-DATE
+> Task :components:lib-dataprotect:generateDebugResources UP-TO-DATE
+> Task :components:lib-dataprotect:packageDebugResources UP-TO-DATE
+> Task :components:lib-integrity-googleplay:preBuild UP-TO-DATE
+> Task :components:lib-integrity-googleplay:preDebugBuild UP-TO-DATE
+> Task :components:lib-integrity-googleplay:generateDebugResValues UP-TO-DATE
+> Task :components:lib-integrity-googleplay:generateDebugResources UP-TO-DATE
+> Task :components:lib-integrity-googleplay:packageDebugResources UP-TO-DATE
+> Task :components:lib-llm-mlpa:preBuild UP-TO-DATE
+> Task :components:lib-llm-mlpa:preDebugBuild UP-TO-DATE
+> Task :components:lib-llm-mlpa:generateDebugResValues UP-TO-DATE
+> Task :components:lib-llm-mlpa:generateDebugResources UP-TO-DATE
+> Task :components:lib-llm-mlpa:packageDebugResources UP-TO-DATE
+> Task :components:lib-publicsuffixlist:preBuild UP-TO-DATE
+> Task :components:lib-publicsuffixlist:preDebugBuild UP-TO-DATE
+> Task :components:lib-publicsuffixlist:generateDebugResValues UP-TO-DATE
+> Task :components:lib-publicsuffixlist:generateDebugResources UP-TO-DATE
+> Task :components:lib-publicsuffixlist:packageDebugResources UP-TO-DATE
+> Task :components:lib-shake:preBuild UP-TO-DATE
+> Task :components:lib-shake:preDebugBuild UP-TO-DATE
+> Task :components:lib-shake:generateDebugResValues UP-TO-DATE
+> Task :components:lib-shake:generateDebugResources UP-TO-DATE
+> Task :components:lib-shake:packageDebugResources UP-TO-DATE
+> Task :components:lib-state:preBuild UP-TO-DATE
+> Task :components:lib-state:preDebugBuild UP-TO-DATE
+> Task :components:lib-state:generateDebugResValues UP-TO-DATE
+> Task :components:lib-state:generateDebugResources UP-TO-DATE
+> Task :components:lib-state:packageDebugResources UP-TO-DATE
+> Task :components:service-digitalassetlinks:preBuild UP-TO-DATE
+> Task :components:service-digitalassetlinks:preDebugBuild UP-TO-DATE
+> Task :components:service-digitalassetlinks:generateDebugResValues UP-TO-DATE
+> Task :components:service-digitalassetlinks:generateDebugResources UP-TO-DATE
+> Task :components:service-digitalassetlinks:packageDebugResources UP-TO-DATE
+> Task :components:service-firefox-accounts:preBuild UP-TO-DATE
+> Task :components:service-firefox-accounts:preDebugBuild UP-TO-DATE
+> Task :components:service-firefox-accounts:generateDebugResValues UP-TO-DATE
+> Task :components:service-firefox-accounts:generateDebugResources UP-TO-DATE
+> Task :components:service-firefox-accounts:packageDebugResources UP-TO-DATE
+> Task :components:service-firefox-relay:preBuild UP-TO-DATE
+> Task :components:service-firefox-relay:preDebugBuild UP-TO-DATE
+> Task :components:service-firefox-relay:generateDebugResValues UP-TO-DATE
+> Task :components:service-firefox-relay:generateDebugResources UP-TO-DATE
+> Task :components:service-firefox-relay:packageDebugResources UP-TO-DATE
+> Task :components:service-glean:preBuild UP-TO-DATE
+> Task :components:service-glean:preDebugBuild UP-TO-DATE
+> Task :components:service-glean:generateDebugResValues UP-TO-DATE
+> Task :components:service-glean:generateDebugResources UP-TO-DATE
+> Task :components:service-glean:packageDebugResources UP-TO-DATE
+> Task :components:service-location:preBuild UP-TO-DATE
+> Task :components:service-location:preDebugBuild UP-TO-DATE
+> Task :components:service-location:generateDebugResValues UP-TO-DATE
+> Task :components:service-location:generateDebugResources UP-TO-DATE
+> Task :components:service-location:packageDebugResources UP-TO-DATE
+> Task :components:service-mars:preBuild UP-TO-DATE
+> Task :components:service-mars:preDebugBuild UP-TO-DATE
+> Task :components:service-mars:generateDebugResValues UP-TO-DATE
+> Task :components:service-mars:generateDebugResources UP-TO-DATE
+> Task :components:service-mars:packageDebugResources UP-TO-DATE
+> Task :components:service-nimbus:preBuild UP-TO-DATE
+> Task :components:service-nimbus:preDebugBuild UP-TO-DATE
+> Task :components:service-nimbus:generateDebugResValues UP-TO-DATE
+> Task :components:service-nimbus:generateDebugResources UP-TO-DATE
+> Task :components:service-nimbus:packageDebugResources UP-TO-DATE
+> Task :components:service-pocket:preBuild UP-TO-DATE
+> Task :components:service-pocket:preDebugBuild UP-TO-DATE
+> Task :components:service-pocket:generateDebugResValues UP-TO-DATE
+> Task :components:service-pocket:generateDebugResources UP-TO-DATE
+> Task :components:service-pocket:packageDebugResources UP-TO-DATE
+> Task :components:service-sync-autofill:preBuild UP-TO-DATE
+> Task :components:service-sync-autofill:preDebugBuild UP-TO-DATE
+> Task :components:service-sync-autofill:generateDebugResValues UP-TO-DATE
+> Task :components:service-sync-autofill:generateDebugResources UP-TO-DATE
+> Task :components:service-sync-autofill:packageDebugResources UP-TO-DATE
+> Task :components:service-sync-logins:preBuild UP-TO-DATE
+> Task :components:service-sync-logins:preDebugBuild UP-TO-DATE
+> Task :components:service-sync-logins:generateDebugResValues UP-TO-DATE
+> Task :components:service-sync-logins:generateDebugResources UP-TO-DATE
+> Task :components:service-sync-logins:packageDebugResources UP-TO-DATE
+> Task :components:support-appservices:preBuild UP-TO-DATE
+> Task :components:support-appservices:preDebugBuild UP-TO-DATE
+> Task :components:support-appservices:generateDebugResValues UP-TO-DATE
+> Task :components:support-appservices:generateDebugResources UP-TO-DATE
+> Task :components:support-appservices:packageDebugResources UP-TO-DATE
+> Task :components:support-base:preBuild UP-TO-DATE
+> Task :components:support-base:preDebugBuild UP-TO-DATE
+> Task :components:support-base:generateDebugResValues UP-TO-DATE
+> Task :components:support-base:generateDebugResources UP-TO-DATE
+> Task :components:support-base:packageDebugResources UP-TO-DATE
+> Task :components:support-images:preBuild UP-TO-DATE
+> Task :components:support-images:preDebugBuild UP-TO-DATE
+> Task :components:support-images:generateDebugResValues UP-TO-DATE
+> Task :components:support-images:generateDebugResources UP-TO-DATE
+> Task :components:support-images:packageDebugResources UP-TO-DATE
+> Task :components:support-ktx:preBuild UP-TO-DATE
+> Task :components:support-ktx:preDebugBuild UP-TO-DATE
+> Task :components:support-ktx:generateDebugResValues UP-TO-DATE
+> Task :components:support-ktx:generateDebugResources UP-TO-DATE
+> Task :components:support-ktx:packageDebugResources UP-TO-DATE
+> Task :components:support-locale:preBuild UP-TO-DATE
+> Task :components:support-locale:preDebugBuild UP-TO-DATE
+> Task :components:support-locale:generateDebugResValues UP-TO-DATE
+> Task :components:support-locale:generateDebugResources UP-TO-DATE
+> Task :components:support-locale:packageDebugResources UP-TO-DATE
+> Task :components:support-remotesettings:preBuild UP-TO-DATE
+> Task :components:support-remotesettings:preDebugBuild UP-TO-DATE
+> Task :components:support-remotesettings:generateDebugResValues UP-TO-DATE
+> Task :components:support-remotesettings:generateDebugResources UP-TO-DATE
+> Task :components:support-remotesettings:packageDebugResources UP-TO-DATE
+> Task :components:support-utils:preBuild UP-TO-DATE
+> Task :components:support-utils:preDebugBuild UP-TO-DATE
+> Task :components:support-utils:generateDebugResValues UP-TO-DATE
+> Task :components:support-utils:generateDebugResources UP-TO-DATE
+> Task :components:support-utils:packageDebugResources UP-TO-DATE
+> Task :components:support-webextensions:preBuild UP-TO-DATE
+> Task :components:support-webextensions:preDebugBuild UP-TO-DATE
+> Task :components:support-webextensions:generateDebugResValues UP-TO-DATE
+> Task :components:support-webextensions:generateDebugResources UP-TO-DATE
+> Task :components:support-webextensions:packageDebugResources UP-TO-DATE
+> Task :components:ui-autocomplete:preBuild UP-TO-DATE
+> Task :components:ui-autocomplete:preDebugBuild UP-TO-DATE
+> Task :components:ui-autocomplete:generateDebugResValues UP-TO-DATE
+> Task :components:ui-autocomplete:generateDebugResources UP-TO-DATE
+> Task :components:ui-autocomplete:packageDebugResources UP-TO-DATE
+> Task :components:ui-colors:preBuild UP-TO-DATE
+> Task :components:ui-colors:preDebugBuild UP-TO-DATE
+> Task :components:ui-colors:generateDebugResValues UP-TO-DATE
+> Task :components:ui-colors:generateDebugResources UP-TO-DATE
+> Task :components:ui-colors:packageDebugResources UP-TO-DATE
+> Task :components:ui-icons:preBuild UP-TO-DATE
+> Task :components:ui-icons:preDebugBuild UP-TO-DATE
+> Task :components:ui-icons:generateDebugResValues UP-TO-DATE
+> Task :components:ui-icons:generateDebugResources UP-TO-DATE
+> Task :components:ui-icons:packageDebugResources UP-TO-DATE
+> Task :components:ui-tabcounter:preBuild UP-TO-DATE
+> Task :components:ui-tabcounter:preDebugBuild UP-TO-DATE
+> Task :components:ui-tabcounter:generateDebugResValues UP-TO-DATE
+> Task :components:ui-tabcounter:generateDebugResources UP-TO-DATE
+> Task :components:ui-tabcounter:packageDebugResources UP-TO-DATE
+> Task :components:ui-widgets:preBuild UP-TO-DATE
+> Task :components:ui-widgets:preDebugBuild UP-TO-DATE
+> Task :components:ui-widgets:generateDebugResValues UP-TO-DATE
+> Task :components:ui-widgets:generateDebugResources UP-TO-DATE
+> Task :components:ui-widgets:packageDebugResources UP-TO-DATE
