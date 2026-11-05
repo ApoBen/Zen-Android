@@ -105,3 +105,9 @@ test_artifacts/
 
 # Web extensions: manifest.json files are generated
 manifest.json
+
+# Local build logs
+*_log*.txt
+build_*.txt
+final_*.txt
+lint_results.txt
